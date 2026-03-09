@@ -1,0 +1,119 @@
+{
+  "extraction_date": "2026-02-06T14:53:05.658850",
+  "plants": [
+    {
+      "plant_name": "Acilepis squarrosa",
+      "extraction_timestamp": "2026-02-06T15:03:08.880298",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Acilepis squarrosa (D. Don)",
+          "local_name": "Phule jhar",
+          "local_name_citation": "Bulletin of Department of Plant Resources No. 37 (2007) and Journal of Plant Resources Vol. 12 (2014), Department of Plant Resources, Nepal.",
+          "family": "Asteraceae",
+          "genus": "Acilepis",
+          "growth_form": "Perennial herb or shrub, 30–100 cm tall, with erect inconspicuously ribbed villose stems.",
+          "location_found_nepal": "Surkhet (West Nepal), Parsa Wildlife Reserve (Central Nepal); native range includes Bhutan, Nepal, Thailand, Vietnam, and India.",
+          "location_found_nepal_citation": "eFlora of India (Acilepis squarrosa) and Bulletin of Department of Plant Resources No. 37 (2007).",
+          "traditional_usage": "Used for treatment of diarrhea, dysentery, kidney stones, back pain, ulcers, wounds, luxation, dropsy, and as a scaricidal agent (flower head). Also utilized in Traditional Chinese Medicine for infections and dermatitis.",
+          "traditional_usage_citation": "Das et al. (2021), Plant Science Today 8(2) and Das et al. (2024), Pharmacological Research – Modern Chinese Medicine.",
+          "cultural_consensus_icf": 0.85,
+          "preparation_solvent": "Chloroform, Methanol, 80% Methanol (Hydro-methanolic), Petroleum ether, Ethyl acetate.",
+          "preparation_method": "Shade-drying of leaves at room temperature followed by grinding into fine powder; sequential extraction in HPLC-grade organic solvents (petroleum ether, chloroform, ethyl acetate, methanol) using a Soxhlet apparatus at 60 °C for 48–90 hours.",
+          "preparation_method_citation": "Das et al. (2024), Pharmacological Research – Modern Chinese Medicine.",
+          "extraction_solvent": "Chloroform (identified as the most active for antibacterial properties), 80% Methanol.",
+          "compound_class": "Phenols, flavonoids, coumarins, tannins, terpenoids, steroids, cardiac glycosides, alkaloids, and saponins.",
+          "compound_class_citation": "Das et al. (2024), Pharmacological Research – Modern Chinese Medicine.",
+          "parts_with_amr": "Leaves (most active), flower head, fruits and seeds.",
+          "parts_with_amr_citation": "Das et al. (2021) and Das et al. (2024).",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "250 µg/ml",
+              "mbc": "Not found",
+              "zoi": "14.33 ± 0.33 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and broth dilution (MIC)",
+              "extraction_solvent": "Chloroform",
+              "preparation_method": "Soxhlet extraction of shade-dried leaf powder",
+              "source_url": "https://www.researchgate.net/publication/383499971_An_insight_into_the_bactericidal_and_phytochemical_properties_of_leaf_extract_of_Vernonia_squarrosa_and_understanding_antibacterial_activity_by_molecular_docking"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "250 µg/ml",
+              "mbc": "Not found",
+              "zoi": "19.50 ± 0.50 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and broth dilution (MIC)",
+              "extraction_solvent": "Chloroform",
+              "preparation_method": "Soxhlet extraction of shade-dried leaf powder",
+              "source_url": "https://www.researchgate.net/publication/383499971_An_insight_into_the_bactericidal_and_phytochemical_properties_of_leaf_extract_of_Vernonia_squarrosa_and_understanding_antibacterial_activity_by_molecular_docking"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "62.5 µg/ml",
+              "mbc": "Not found",
+              "zoi": "20.00 ± 0.00 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and broth dilution (MIC)",
+              "extraction_solvent": "Chloroform",
+              "preparation_method": "Soxhlet extraction of shade-dried leaf powder",
+              "source_url": "https://www.researchgate.net/publication/383499971_An_insight_into_the_bactericidal_and_phytochemical_properties_of_leaf_extract_of_Vernonia_squarrosa_and_understanding_antibacterial_activity_by_molecular_docking"
+            },
+            {
+              "pathogen": "Bacillus subtilis",
+              "mic": "62.5 µg/ml",
+              "mbc": "Not found",
+              "zoi": "20.05 ± 0.88 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and broth dilution (MIC)",
+              "extraction_solvent": "Chloroform",
+              "preparation_method": "Soxhlet extraction of shade-dried leaf powder",
+              "source_url": "https://www.researchgate.net/publication/383499971_An_insight_into_the_bactericidal_and_phytochemical_properties_of_leaf_extract_of_Vernonia_squarrosa_and_understanding_antibacterial_activity_by_molecular_docking"
+            },
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "250 µg/ml",
+              "mbc": "Not found",
+              "zoi": "14.33 ± 0.33 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and serial broth dilution (MIC)",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction (1:10 ratio, 90h total)",
+              "source_url": "https://www.researchgate.net/publication/351839525_In_vitro_photoprotective_antioxidant_and_antibacterial_activity_of_Vernonia_squarrosa_D_Don_Less"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "125 µg/ml",
+              "mbc": "Not found",
+              "zoi": "18.67 ± 0.88 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and serial broth dilution (MIC)",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction (1:10 ratio, 90h total)",
+              "source_url": "https://www.researchgate.net/publication/351839525_In_vitro_photoprotective_antioxidant_and_antibacterial_activity_of_Vernonia_squarrosa_D_Don_Less"
+            },
+            {
+              "pathogen": "Bacillus subtilis",
+              "mic": "125 µg/ml",
+              "mbc": "Not found",
+              "zoi": "20.33 ± 0.33 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and serial broth dilution (MIC)",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction (1:10 ratio, 90h total)",
+              "source_url": "https://www.researchgate.net/publication/351839525_In_vitro_photoprotective_antioxidant_and_antibacterial_activity_of_Vernonia_squarrosa_D_Don_Less"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "250 µg/ml",
+              "mbc": "Not found",
+              "zoi": "15.00 ± 0.00 mm",
+              "assay_type": "Agar-well diffusion (ZOI) and serial broth dilution (MIC)",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction (1:10 ratio, 90h total)",
+              "source_url": "https://www.researchgate.net/publication/351839525_In_vitro_photoprotective_antioxidant_and_antibacterial_activity_of_Vernonia_squarrosa_D_Don_Less"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-06T10:54:17.691000Z",
+  "credits_used": 0
+}
