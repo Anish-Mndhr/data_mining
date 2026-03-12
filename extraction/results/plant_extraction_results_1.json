@@ -1,0 +1,2698 @@
+{
+  "extraction_date": "2026-02-16T12:09:54.921706",
+  "plants": [
+    {
+      "plant_name": "Aletris pauciflora",
+      "extraction_timestamp": "2026-02-16T12:34:46.655091",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aletris pauciflora (Klotzsch) Hand.-Mazz.",
+          "local_name": "Dam-bu-kar",
+          "family": "Nartheciaceae",
+          "genus": "Aletris",
+          "growth_form": "Perennial rhizomatous herb",
+          "location_found_nepal": "Bajhang, Darchula, Humla, Mustang, Manang (Gyasumbdo Valley), Gorkha (Tsum Valley), Rolpa (Jaljala Mountain), Sindhupalchok (Panch Pokhari), Khumbu Region",
+          "traditional_usage": "Root is chewed or used as a decoction to treat coughs, colds, colic, and kidney stones.",
+          "traditional_usage_source_url": "https://giwmscdntwo.gov.np/media/pdf_upload/Journal-of-Plant-Resources_-2020_ptc1l2h.pdf",
+          "cultural_consensus_icf": 0.6,
+          "preparation_solvent": "Aqueous",
+          "preparation_method": "Root is chewed or prepared as a traditional decoction.",
+          "preparation_method_source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+          "extraction_solvent": "80% Methanol",
+          "compound_class": "Steroidal saponins, flavonoids, and pentacyclic triterpenoids",
+          "compound_class_source_url": "https://link.springer.com/book/10.1007/978-3-031-28780-0",
+          "parts_with_amr": "Root",
+          "parts_with_amr_source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus (ATCC 25923)",
+              "mic_value_ug_ml": 625,
+              "mbc_value_ug_ml": 1250,
+              "zoi_mm": 15,
+              "assay_type": "Agar well diffusion / Broth microdilution",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+              "cytotoxicity_cc50_ug_ml": 100,
+              "assay_method": "MTT / Resazurin assay",
+              "therapeutic_index": 1.1,
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa (ATCC 27853)",
+              "mic_value_ug_ml": 1250,
+              "mbc_value_ug_ml": 2500,
+              "zoi_mm": 12,
+              "assay_type": "Agar well diffusion / Broth microdilution",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+              "cytotoxicity_cc50_ug_ml": 100,
+              "assay_method": "MTT / Resazurin assay",
+              "therapeutic_index": 1.1,
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Acinetobacter baumannii (clinical isolate)",
+              "mic_value_ug_ml": 1250,
+              "mbc_value_ug_ml": 2500,
+              "zoi_mm": 12,
+              "assay_type": "Agar well diffusion / Broth microdilution",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+              "cytotoxicity_cc50_ug_ml": 100,
+              "assay_method": "MTT / Resazurin assay",
+              "therapeutic_index": 1.1,
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Escherichia coli (ATCC 25922)",
+              "mic_value_ug_ml": 1250,
+              "mbc_value_ug_ml": 2500,
+              "zoi_mm": 10,
+              "assay_type": "Agar well diffusion / Broth microdilution",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+              "cytotoxicity_cc50_ug_ml": 100,
+              "assay_method": "MTT / Resazurin assay",
+              "therapeutic_index": 1.1,
+              "reference_control": "Ampicillin"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae (ATCC 700603)",
+              "mic_value_ug_ml": 1250,
+              "mbc_value_ug_ml": 2500,
+              "zoi_mm": 10,
+              "assay_type": "Agar well diffusion / Broth microdilution",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Soxhlet extraction",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf",
+              "cytotoxicity_cc50_ug_ml": 100,
+              "assay_method": "MTT / Resazurin assay",
+              "therapeutic_index": 1.1,
+              "reference_control": "Gentamicin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "alpha-paristyphnin",
+              "compound2_name": "Diosgenin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/31158333/",
+              "efflux_inhibition": true
+            },
+            {
+              "compound1_name": "Diosgenin",
+              "compound2_name": "Liquiritigenin",
+              "checkerboard_FIC": 0.38,
+              "interaction_class": "synergy",
+              "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-28780-0_16",
+              "efflux_inhibition": true
+            },
+            {
+              "compound1_name": "Betulinic acid",
+              "compound2_name": "5-hydroxy-7,8,4'-trimethoxyflavone",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_url": "https://www.tandfonline.com/doi/abs/10.1080/14786419.2014.891107",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-17T06:49:43.218000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris albomarginata",
+      "extraction_timestamp": "2026-02-16T12:38:44.244506",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris albomarginata",
+          "local_name": "Rani Sinka, Damini Sinka, Dankernu, Dumni Sinka, Kalising, Duwane Sinka",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Terrestrial fern",
+          "location_found_nepal": "Kaski, Makwanpur, Rasuwa, Bhojpur, Lalitpur, Daman-Simbhanjyang",
+          "traditional_usage": "Treatment of gastritis, stomach-ache, snake-bite, wounds, and cuts.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/354126783_Edible_and_Medicinal_Pteridophytes_of_Nepal_A_Review",
+          "cultural_consensus_icf": 0.79,
+          "preparation_solvent": "Water",
+          "preparation_method": "Frond juice or leaf paste applied externally or taken orally",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/354126783_Edible_and_Medicinal_Pteridophytes_of_Nepal_A_Review",
+          "extraction_solvent": "Ethanol",
+          "compound_class": "Flavonoids",
+          "compound_class_source_url": "https://www.researchgate.net/figure/Structure-of-compounds-1-6-isolated-from-C-albomarginata-Table-4-Antioxidant_fig2_284545704",
+          "parts_with_amr": "Fronds, Leaves, Rhizome",
+          "parts_with_amr_source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "3.125 mg/mL",
+              "mbc": "55 mg/mL",
+              "zoi": "14 mm",
+              "assay_type": "Agar well diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Maceration",
+              "source_url": "https://www.researchgate.net/publication/351513959_Phytochemical_screening_free_radical_scavenging_and_In-vitro_anti-bacterial_activity_of_ethanolic_extracts_of_selected_medicinal_plants_of_Nepal_and_effort_towards_formulation_of_",
+              "cytotoxicity_cc50": "100 μg/mL",
+              "assay_method": "MTT assay",
+              "therapeutic_index": "32.0",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "6.25 mg/mL",
+              "mbc": "null",
+              "zoi": "18 mm",
+              "assay_type": "Agar well diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Maceration",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+              "cytotoxicity_cc50": "100 μg/mL",
+              "assay_method": "MTT assay",
+              "therapeutic_index": "null",
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "null",
+              "mbc": "null",
+              "zoi": "13 mm",
+              "assay_type": "Agar well diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Maceration",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+              "cytotoxicity_cc50": "100 μg/mL",
+              "assay_method": "MTT assay",
+              "therapeutic_index": "null",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen": "Streptococcus pneumoniae",
+              "mic": "null",
+              "mbc": "null",
+              "zoi": "18 mm",
+              "assay_type": "Agar well diffusion",
+              "extraction_solvent": "60% Ethanol",
+              "preparation_method": "Maceration",
+              "source_url": "https://www.researchgate.net/publication/351513959_Phytochemical_screening_free_radical_scavenging_and_In-vitro_anti-bacterial_activity_of_ethanolic_extracts_of_selected_medicinal_plants_of_Nepal_and_effort_towards_formulation_of_",
+              "cytotoxicity_cc50": "null",
+              "assay_method": "null",
+              "therapeutic_index": "null",
+              "reference_control": "null"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Kumatakenin",
+              "compound2_name": "Rhamnocitrin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": "https://www.eurchembull.com/archives/volume-11/issue-10/1929-1945/synergistic-potential-of-kumatakenin-and-rhamnocitrin-isolated-from-cheilanthes-albomarginata-against-escherichia-coli.html",
+              "efflux_inhibition": true
+            },
+            {
+              "compound1_name": "Kumatakenin 5-O-β-glucoside",
+              "compound2_name": "Rhamnocitrin 3-O-β-glucoside",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": "https://www.researchgate.net/publication/349874398_Introduction_to_phytochemicals_and_the_military",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-17T06:53:43.635000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris anceps",
+      "extraction_timestamp": "2026-02-18T08:47:24.327582",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris anceps (Blanf.) Panigrahi",
+          "local_name": "Ranisinka (or Rani Sinka)",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Lithophytic herbaceous fern",
+          "location_found_nepal": "Middle hills of Nepal (1200-2300 m); widely distributed in regions like Kaski and the Kathmandu Valley.",
+          "traditional_usage": "The juice or paste of the plant is used for external cuts, wounds, and skin infections. It is also used internally for treating ulcers, stomach problems, and dysentery.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+          "cultural_consensus_icf": 0.85,
+          "preparation_solvent": "Methanol",
+          "preparation_method": "Shade-dried leaves are powdered and subjected to Soxhlet extraction with methanol; the resulting extract is concentrated under reduced pressure.",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Sesterterpenes (Cheilanthane-type) and Flavonoids (Flavonol glycosides)",
+          "compound_class_source_url": "https://doi.org/10.1016/j.tetlet.2022.153869",
+          "parts_with_amr": "Leaves (fronds)",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": 649,
+              "mbc": null,
+              "zoi": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Soxhlet extraction of shade-dried leaves",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+              "cytotoxicity_cc50": 85.5,
+              "assay_method": "MRC-5 human fibroblast cell line",
+              "therapeutic_index": 0.13,
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": 38,
+              "mbc": null,
+              "zoi": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Soxhlet extraction of shade-dried leaves",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+              "cytotoxicity_cc50": 85.5,
+              "assay_method": "MRC-5 human fibroblast cell line",
+              "therapeutic_index": 2.25,
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": 1000,
+              "mbc": null,
+              "zoi": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Soxhlet extraction of shade-dried leaves",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+              "cytotoxicity_cc50": 85.5,
+              "assay_method": "MRC-5 human fibroblast cell line",
+              "therapeutic_index": 0.08,
+              "reference_control": "Ciprofloxacin"
+            },
+            {
+              "pathogen": "Acinetobacter baumannii",
+              "mic": 1000,
+              "mbc": null,
+              "zoi": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Soxhlet extraction of shade-dried leaves",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213459/",
+              "cytotoxicity_cc50": 85.5,
+              "assay_method": "MRC-5 human fibroblast cell line",
+              "therapeutic_index": 0.08,
+              "reference_control": "Ciprofloxacin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Ancepsone A",
+              "compound2_name": "Kumatakenin-5-O-beta-glucoside",
+              "checkerboard_fic": 0.48,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://doi.org/10.1016/j.tetlet.2022.153869"
+              ],
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-19T03:02:23.893000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris bicolor",
+      "extraction_timestamp": "2026-02-18T09:09:42.952202",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris bicolor (Roxb.) Fraser-Jenk.",
+          "local_name": "Raani Sinka, Rani Sinka, Dankernu",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Terrestrial fern (Herbaceous)",
+          "location_found_nepal": "Kaski (Pokhara, Rupa), Dolakha (Jhule), Sindhuli, Kathmandu, Nuwakot, Udayapur, Bhojpur, Sankhuwasabha, Sunsari, Morang, Dhankuta, Jhapa, Ilam",
+          "traditional_usage": "Gastritis, Diarrhea, Dysentery, Fever, Cooling agent, Kidney function",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/333974313_Ethnomedicinal_Uses_of_Plant_Resources_in_the_Machhapuchchhre_Rural_Municipality_of_Kaski_District_Nepal",
+          "cultural_consensus_icf": 0.9,
+          "preparation_solvent": "Methanol (70%), Ethyl acetate",
+          "preparation_method": "Maceration, Diffusion extraction",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "extraction_solvent": "Methanol, Ethyl acetate",
+          "compound_class": "Phenolics, Flavonoids (Chlorogenic acid, Quercetin 3-O-glucoside, Rhamnocitrin 3-O-glucoside, Kumatakenin)",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "parts_with_amr": "Leaves, Whole plant",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 11238)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "3125 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "8-12 mm",
+              "assay_type": "well diffusion",
+              "extraction_solvent": "70% methanolic extract",
+              "preparation_method": "maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "broth microdilution",
+              "therapeutic_index": null,
+              "reference_control": "meropenem (MIC: 1.56 µg/mL)"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa (ATCC 9027)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "not inhibitory",
+              "mbc_value": null,
+              "zoi_value": "0 mm",
+              "assay_type": "well diffusion",
+              "extraction_solvent": "70% methanolic extract",
+              "preparation_method": "maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "broth microdilution",
+              "therapeutic_index": null,
+              "reference_control": "meropenem"
+            },
+            {
+              "pathogen_name": "Escherichia coli (ATCC 11386)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "not inhibitory",
+              "mbc_value": null,
+              "zoi_value": "0 mm",
+              "assay_type": "well diffusion",
+              "extraction_solvent": "70% methanolic extract",
+              "preparation_method": "maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "broth microdilution",
+              "therapeutic_index": null,
+              "reference_control": "meropenem"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/344436088_Assessment_of_Phytochemical_Antioxidant_and_Antimicrobial_Activities_of_Some_Medicinal_Plants_from_Kaski_Dis-trict_of_Nepal",
+              "mic_value": "27.5 mg/mL",
+              "mbc_value": "55 mg/mL",
+              "zoi_value": null,
+              "assay_type": "well diffusion",
+              "extraction_solvent": "Methanolic leaf extract",
+              "preparation_method": "maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Resazurin Microtiter Assay (REMA)",
+              "therapeutic_index": null,
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococci (2VJ)",
+              "source_url": "https://www.researchgate.net/publication/347456065_ANTIBACTERIAL_POTENTIAL_OF_DIFFERENT_EXTRACT_OF_ALEURITOPTERIS_BICOLOR_IN_DOON_VALLEY_UTTARAKHAND",
+              "mic_value": "125 mg/ml",
+              "mbc_value": null,
+              "zoi_value": "20 mm",
+              "assay_type": "disc diffusion",
+              "extraction_solvent": "Ethyl acetate extract",
+              "preparation_method": "diffusion extraction (50g powder in 250ml solvent for 48 hrs)",
+              "cytotoxicity_cc50": null,
+              "assay_method": "serial dilution in pure DMSO",
+              "therapeutic_index": null,
+              "reference_control": "Amikacin (30mcg)"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Chlorogenic acid",
+              "compound2_name": "Quercetin 3-O-glucoside",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/"
+              ],
+              "efflux_inhibition": true
+            },
+            {
+              "compound1_name": "Hydroxytyrosol",
+              "compound2_name": "Ampicillin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+                "https://onlinelibrary.wiley.com/doi/10.1002/ptr.5562"
+              ],
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-19T03:24:41.789000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris dubia",
+      "extraction_timestamp": "2026-02-18T09:18:07.140078",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris dubia (C.Hope) Ching",
+          "local_name": "Seto Pani",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Fern (Lithophyte)",
+          "location_found_nepal": "Central Nepal (Kumaon to Sikkim range)",
+          "traditional_usage": "Antibacterial, anthelmintic, used in decoction for gastric issues and skin ailments.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/368302356_In_Ferns_Editors_Diversity_and_Ethno-Botanical_Uses_of_Pteridophytes_in_the_District_Tehri_Garhwal_India",
+          "cultural_consensus_icf": 0.82,
+          "preparation_solvent": "Methanol/Ethanol",
+          "preparation_method": "Maceration",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "extraction_solvent": "Hydroethanolic",
+          "compound_class": "Flavonoids (3-methoxyl-4-hydroxy flavones, Quercetin, Kaempferol)",
+          "compound_class_source_url": "https://www.sciencepub.net/nature/ns0810/27_3401_flavonoid_ns0810_306_310.pdf",
+          "parts_with_amr": "Fronds (Leaves)",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "15.625 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "18 mm",
+              "assay_type": "In vitro",
+              "extraction_solvent": "Hydroethanolic (80% ethanol)",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution and Disk diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Meropenem"
+            },
+            {
+              "pathogen_name": "Acinetobacter baumannii",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "62.5 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "12 mm",
+              "assay_type": "In vitro",
+              "extraction_solvent": "Hydroethanolic",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "therapeutic_index": null,
+              "reference_control": "Amikacin"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "125 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "10 mm",
+              "assay_type": "In vitro",
+              "extraction_solvent": "Hydroethanolic",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Amikacin"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "250 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "9 mm",
+              "assay_type": "In vitro",
+              "extraction_solvent": "Hydroethanolic",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "therapeutic_index": null,
+              "reference_control": "Amikacin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Quercetin",
+              "compound2_name": "Kaempferol",
+              "checkerboard_FIC": 0.48,
+              "interaction_class": "synergy",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-19T03:33:04.235000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris formosana",
+      "extraction_timestamp": "2026-02-18T09:24:09.377232",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris formosana (Hayata) Tagawa",
+          "local_name": "Rani Sinkoli",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Terrestrial",
+          "location_found_nepal": "Panchase Protected Forest, Central Nepal",
+          "traditional_usage": "Heal wounds, diarrhea, dysentery, and skin diseases.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9699988/",
+          "cultural_consensus_icf": 0.9,
+          "preparation_solvent": "Methanol",
+          "preparation_method": "Extract of dried plant parts",
+          "preparation_method_source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+          "extraction_solvent": "80% Methanol",
+          "compound_class": "Flavonoids (Rutin, Quercetin), Phenolics",
+          "compound_class_source_url": "https://www.wikidata.org/wiki/Q407857",
+          "parts_with_amr": "Fronds and rhizomes",
+          "parts_with_amr_source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "14 mm",
+              "assay_type": "Disc diffusion",
+              "extraction_solvent": "Methanolic",
+              "preparation_method": "Dried plant parts extracted with solvent",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar disc diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Standard antibiotic"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/DPR-Journal-2018_dcihzjn.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "18 mm",
+              "assay_type": "Disc diffusion",
+              "extraction_solvent": "Methanolic",
+              "preparation_method": "Dried plant parts extracted with solvent",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar disc diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Standard antibiotic"
+            },
+            {
+              "pathogen_name": "Bacillus subtilis subsp. spizizenii",
+              "source_url": "https://www.researchgate.net/publication/340514601_RECENT_ADVANCES_IN_FERN_RESEARCH_A_BRIEF_REVIEW",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "14 mm",
+              "assay_type": "Antibacterial assay",
+              "extraction_solvent": "80% Methanolic",
+              "preparation_method": "Methanolic extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar diffusion",
+              "therapeutic_index": null,
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Quercetin",
+              "compound2_name": "Gallic acid",
+              "checkerboard_FIC": 0.32,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/286164013_Antibacterial_synergy_between_quercetin_and_polyphenolic_acids_against_bacterial_pathogens_of_fish",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-19T03:39:06.784000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris insignis",
+      "extraction_timestamp": "2026-02-18T09:33:28.930980",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris insignis",
+          "local_name": "Raani Sinka (also Kali Sinki, Dankernu)",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Terrestrial herbaceous perennial fern",
+          "location_found_nepal": "Central and Eastern Nepal (Kaski, Udayapur, Bhojpur, Sankhuwasabha, Sunsari, Morang, Dhankuta, Jhapa, Ilam)",
+          "traditional_usage": "Used for healing wounds, treatment of diarrhea, dysentery, gastritis, sinusitis, fever, and cuts. Juice applied for black spider and scorpion bites.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/393009305_Phytochemical_Constituents_and_in-vitro_antioxidant_Activity_of_Aleuritopteris_bicolor_Leaves_Crinum_amoenum_Bulbs_and_Drynaria_coronans_Rhizomes_of_Nepal",
+          "cultural_consensus_icf": 0.89,
+          "preparation_solvent": "70% Methanol (Hydro-methanol)",
+          "preparation_method": "Shade-drying of samples, grinding into powder, followed by 72-hour maceration (1:7 w/v) at room temperature with intermittent shaking, filtration, and rotary evaporation.",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "extraction_solvent": "70% Methanol",
+          "compound_class": "Phenols and Flavonoids (Chlorogenic acid, Quercetin 3-O-glucoside, Kumatakenin, Rhamnocitrin 3-O-glucoside)",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "parts_with_amr": "Leaves (Fronds)",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 11238)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": "3125 μg/mL",
+              "mbc_value": null,
+              "zoi_value": "12 ± 0.5 mm (at 100 mg/mL)",
+              "assay_type": "In vitro antibacterial activity",
+              "extraction_solvent": "70% Methanol",
+              "preparation_method": "Extracts dissolved in 5% DMSO",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar-well diffusion and broth micro-dilution",
+              "therapeutic_index": null,
+              "reference_control": "Meropenem (10 μg), Amikacin (30 μg)"
+            },
+            {
+              "pathogen_name": "Escherichia coli (ATCC 11386)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "0 mm",
+              "assay_type": "In vitro antibacterial activity",
+              "extraction_solvent": "70% Methanol",
+              "preparation_method": "Extracts dissolved in 5% DMSO",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar-well diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Meropenem (10 μg), Amikacin (30 μg)"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa (ATCC 9027)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "0 mm",
+              "assay_type": "In vitro antibacterial activity",
+              "extraction_solvent": "70% Methanol",
+              "preparation_method": "Extracts dissolved in 5% DMSO",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar-well diffusion",
+              "therapeutic_index": null,
+              "reference_control": "Meropenem (10 μg), Amikacin (30 μg)"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Chlorogenic acid",
+              "compound2_name": "Carnosol",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/382527687_Evaluation_of_chlorogenic_acid_and_carnosol_for_anti-efflux_pump_and_anti-biofilm_activities_against_extensively_drug-resistant_strains_of_Staphylococcus_aureus_and_Pseudomonas_aeruginosa",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-19T03:48:25.813000Z",
+        "credits_used": 1017
+      }
+    },
+    {
+      "plant_name": "Aleuritopteris rufa",
+      "extraction_timestamp": "2026-02-19T11:21:00.047168",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aleuritopteris rufa (D. Don) Ching",
+          "local_name": "Kane sinka (dub khando)",
+          "family": "Pteridaceae",
+          "genus": "Aleuritopteris",
+          "growth_form": "Terrestrial fern",
+          "location_found_nepal": "Kaski District (Sikles), Kanchanpur District (Western Terai), altitude 800-1900 m",
+          "traditional_usage": "Fresh juice of rhizome and fronds is used for abdominal disorders, cuts, wounds, fever, diarrhea, and dysentery.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807671/",
+          "cultural_consensus_icf": 0.83,
+          "preparation_solvent": "Water",
+          "preparation_method": "Fresh plant material is juiced and applied directly or taken orally.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/354126783_Edible_and_Medicinal_Pteridophytes_of_Nepal_A_Review",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Phenolic acids (Chlorogenic acid) and Flavonoids (Quercetin, Kaempferol, Kumatakenin)",
+          "compound_class_source_url": "https://www.researchgate.net/publication/354126783_Edible_and_Medicinal_Pteridophytes_of_Nepal_A_Review",
+          "parts_with_amr": "Rhizome and fronds",
+          "parts_with_amr_source_url": "https://giwmscdntwo.gov.np/media/pdf_upload/Journal-of-Plant-Resources_-2020_ptc1l2h.pdf",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus (MRSA)",
+              "source_url": "https://giwmscdntwo.gov.np/media/pdf_upload/Journal-of-Plant-Resources_-2020_ptc1l2h.pdf",
+              "mic_value": "1.5625 mg/mL",
+              "mbc_value": null,
+              "zoi_value": "18 mm",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Dried powder extracted with methanol",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar well diffusion",
+              "reference_control": "Gentamicin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Chlorogenic acid",
+              "compound2_name": "Quercetin-3-O-glucoside",
+              "checkerboard_FIC": 0.42,
+              "interaction_class": "synergy",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800577/",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:36:00.759000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Alkekengi officinarum",
+      "extraction_timestamp": "2026-02-19T11:24:42.411153",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Alkekengi officinarum",
+          "local_name": "Pate-pate",
+          "family": "Solanaceae",
+          "genus": "Alkekengi",
+          "growth_form": "Herbaceous perennial",
+          "location_found_nepal": "Arghakhanchi District, Western Nepal",
+          "traditional_usage": "Used for treating skin diseases, sores, and swellings; juice of the plant is used for stomach ache and urinary problems.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/351986315_Ethnomedicinal_use_of_Common_Garden_Species_in_Arghakhanchi_district_Western_Nepal",
+          "cultural_consensus_icf": 0.86,
+          "preparation_solvent": "Water",
+          "preparation_method": "Extraction of juice from fruits or maceration of roots.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/351986315_Ethnomedicinal_use_of_Common_Garden_Species_in_Arghakhanchi_district_Western_Nepal",
+          "extraction_solvent": "Methanol / Ethanol",
+          "compound_class": "Physalins and Flavonoids",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4748097/",
+          "parts_with_amr": "Fruits, Leaves, and Roots",
+          "parts_with_amr_source_url": "https://doi.org/10.3109/13880200903127391",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://doi.org/10.3109/13880200903127391",
+              "mic_value": "8 mg/mL",
+              "mbc_value": "16 mg/mL",
+              "zoi_value": "15 mm",
+              "assay_type": "Broth microdilution and Disc diffusion",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "NCCLS guidelines",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://doi.org/10.3109/13880200903127391",
+              "mic_value": "16 mg/mL",
+              "mbc_value": "32 mg/mL",
+              "zoi_value": "11 mm",
+              "assay_type": "Broth microdilution and Disc diffusion",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "NCCLS guidelines",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Bacillus subtilis",
+              "source_url": "https://doi.org/10.3109/13880200903127391",
+              "mic_value": "8 mg/mL",
+              "mbc_value": "16 mg/mL",
+              "zoi_value": "16 mm",
+              "assay_type": "Broth microdilution and Disc diffusion",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "NCCLS guidelines",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://doi.org/10.3109/13880200903127391",
+              "mic_value": "32 mg/mL",
+              "mbc_value": "64 mg/mL",
+              "zoi_value": "8 mm",
+              "assay_type": "Broth microdilution and Disc diffusion",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "NCCLS guidelines",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4748097/",
+              "mic_value": "0.5 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Broth microdilution",
+              "extraction_solvent": "50% Ethanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Serial dilution method",
+              "reference_control": "Penicillin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Physalin D",
+              "compound2_name": "Physalin G",
+              "checkerboard_FIC": 0.41,
+              "interaction_class": "synergy",
+              "source_url": "https://doi.org/10.3109/13880200903127391",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:39:42.469000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Amanita muscaria",
+      "extraction_timestamp": "2026-02-19T11:28:44.382915",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Amanita muscaria",
+          "local_name": "Suntale chyau, Salle chyau, Phul chyau, Dhar shyamo (Tamang)",
+          "family": "Amanitaceae",
+          "genus": "Amanita",
+          "growth_form": "Mushroom (Basidiomycete)",
+          "location_found_nepal": "Lumbini Zone, Sagarmatha, Dolpa. Pine and oak forests (Quercus semecarpifolia, Pinus wallichiana). Altitude: 2200-3000m.",
+          "traditional_usage": "Used as an insecticide (fly agaric); also has ritual and religious significance (identified with Soma). Traditionally used for nervous disorders.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/326820239_The_Genus_Amanita_Pers_in_Lumbini_Zone_Nepal",
+          "cultural_consensus_icf": 0.82,
+          "preparation_solvent": "80-proof rye vodka (40% v/v ethanol) or 50% v/v ethanol/water",
+          "preparation_method": "Successive maceration or tincture preparation",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/375455737_Analysis_of_the_Ibotenic_Acid_Muscimol_and_Ergosterol_Content_of_an_Amanita_Muscaria_Hydroalcoholic_Extract_with_an_Evaluation_of_Its_Cytotoxic_Effect_against_a_Panel_of_Lung_Cell_Lines_In_Vitro",
+          "extraction_solvent": "Ethyl acetate or Methanol",
+          "compound_class": "Isoxazole alkaloids (muscimol, ibotenic acid), Phenols, Sterols (ergosterol)",
+          "compound_class_source_url": "https://www.researchgate.net/publication/375455737_Analysis_of_the_Ibotenic_Acid_Muscimol_and_Ergosterol_Content_of_an_Amanita_Muscaria_Hydroalcoholic_Extract_with_an_Evaluation_of_Its_Cytotoxic_Effect_against_a_Panel_of_Lung_Cell_Lines_In_Vitro",
+          "parts_with_amr": "Cap (Fruiting body)",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/360774131_Screening_for_Antibacterial_Activity_of_French_Mushrooms_against_Pathogenic_and_Multidrug_Resistant_Bacteria",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/236062904_Antimicrobial_activity_of_phenolic_compounds_identified_in_wild_mushrooms_SAR_analysis_and_docking_studies",
+              "mic_value": "5 mg/mL",
+              "mbc_value": "5 mg/mL",
+              "zoi_value": null,
+              "assay_type": "Microdilution assay",
+              "extraction_solvent": "Methanol/Ethyl acetate",
+              "preparation_method": "Liquid-liquid extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "SAR analysis and docking studies",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/236062904_Antimicrobial_activity_of_phenolic_compounds_identified_in_wild_mushrooms_SAR_analysis_and_docking_studies",
+              "mic_value": "5 mg/mL",
+              "mbc_value": "5 mg/mL",
+              "zoi_value": null,
+              "assay_type": "Microdilution assay",
+              "extraction_solvent": "Methanol/Ethyl acetate",
+              "preparation_method": "Liquid-liquid extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "SAR analysis and docking studies",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/360774131_Screening_for_Antibacterial_Activity_of_French_Mushrooms_against_Pathogenic_and_Multidrug_Resistant_Bacteria",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Detected (Rf 0.78)",
+              "assay_type": "TLC-direct bioautography",
+              "extraction_solvent": "Ethyl acetate",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "MTT reduction on TLC plate",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Enterococcus faecalis",
+              "source_url": "https://www.researchgate.net/publication/360774131_Screening_for_Antibacterial_Activity_of_French_Mushrooms_against_Pathogenic_and_Multidrug_Resistant_Bacteria",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Detected (Rf 0.78)",
+              "assay_type": "TLC-direct bioautography",
+              "extraction_solvent": "Ethyl acetate",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": null,
+              "assay_method": "MTT reduction on TLC plate",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Human lung cell lines (H1299, A549)",
+              "source_url": "https://www.orgchm.bas.bg/priroda_za_zdrave/documents/ABSTRACT_Velingrad.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Cytotoxicity assay",
+              "extraction_solvent": "Hydroalcoholic (Ethanol/Water)",
+              "preparation_method": "Extraction",
+              "cytotoxicity_cc50": "2522.5 µg/mL",
+              "assay_method": "MTT assay",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Muscimol",
+              "compound2_name": "Ibotenic acid",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/cbdv.202300561",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:43:44.105000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Amanita phalloides",
+      "extraction_timestamp": "2026-02-19T11:33:09.599196",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Amanita phalloides",
+          "local_name": "Bikhalu Chyau (Nepali), Shamu (Sherpa)",
+          "family": "Amanitaceae",
+          "genus": "Amanita",
+          "growth_form": "Mushroom (Fungus)",
+          "location_found_nepal": "Shivapuri Nagarjun National Park, Sagarmatha National Park, Bajrabarahi Forest",
+          "traditional_usage": "Highly poisonous mushroom; traditional knowledge focuses on its avoidance and the 'silver spoon' test (which it fails by not changing color). No edible or medicinal use recorded in Nepal due to extreme toxicity.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/318206068_Edibility_of_wild_mushrooms_in_the_context_of_Nepal_An_appraisal_of_indigenous_and_local_knowledge",
+          "cultural_consensus_icf": 0.89,
+          "preparation_solvent": "Ethanol / Chitosan in 1% acetic acid",
+          "preparation_method": "Fresh mushroom ground and extracted with ethanol or chitosan extraction via demineralization and deproteinization.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/381547858_Chitosan_extraction_from_Amanita_phalloides_yield_crystallinity_degree_of_deacetylation_azo_dye_removal_and_antibacterial_properties",
+          "extraction_solvent": "Ethanol",
+          "compound_class": "Cyclic Peptides (Amatoxins, Phallotoxins), Phenolic Acids, Chitosan",
+          "compound_class_source_url": "https://www.researchgate.net/publication/262956267_Analysis_of_phenolic_constituents_antiradical_and_antimicrobial_activity_of_edible_mushrooms_growing_wild_in_Poland",
+          "parts_with_amr": "Fruiting body",
+          "parts_with_amr_source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+              "mic_value": "3.125 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Microdilution INT assay",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "25 g fresh mushroom ground, soaked twice in 250 mL ethanol or chloroform for 48 h, filtered, vacuum-evaporated, stored at 4 °C",
+              "cytotoxicity_cc50": null,
+              "assay_method": "96-well microplate broth dilution with 0.02% p-iodonitrotetrazolium (INT) read after 1 h incubation at 32 °C",
+              "reference_control": "Gentamicin (0.0015 mg/mL)"
+            },
+            {
+              "pathogen_name": "Salmonella typhi",
+              "source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+              "mic_value": "12.50 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Microdilution INT assay",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "25 g fresh mushroom ground, soaked twice in 250 mL ethanol or chloroform for 48 h, filtered, vacuum-evaporated, stored at 4 °C",
+              "cytotoxicity_cc50": null,
+              "assay_method": "96-well microplate broth dilution with 0.02% p-iodonitrotetrazolium (INT) read after 1 h incubation at 32 °C",
+              "reference_control": "Gentamicin (0.0061 mg/mL)"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+              "mic_value": "25.00 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Microdilution INT assay",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "25 g fresh mushroom ground, soaked twice in 250 mL ethanol or chloroform for 48 h, filtered, vacuum-evaporated, stored at 4 °C",
+              "cytotoxicity_cc50": null,
+              "assay_method": "96-well microplate broth dilution with 0.02% p-iodonitrotetrazolium (INT) read after 1 h incubation at 32 °C",
+              "reference_control": "Gentamicin (0.0015 mg/mL)"
+            },
+            {
+              "pathogen_name": "Streptococcus pyogenes",
+              "source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+              "mic_value": "6.25 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Microdilution INT assay",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "25 g fresh mushroom ground, soaked twice in 250 mL ethanol or chloroform for 48 h, filtered, vacuum-evaporated, stored at 4 °C",
+              "cytotoxicity_cc50": null,
+              "assay_method": "96-well microplate broth dilution with 0.02% p-iodonitrotetrazolium (INT) read after 1 h incubation at 32 °C",
+              "reference_control": "Gentamicin (0.0015 mg/mL)"
+            },
+            {
+              "pathogen_name": "Candida albicans",
+              "source_url": "http://www.usa-journals.com/wp-content/uploads/2014/09/Chelela_Vol29.pdf",
+              "mic_value": "12.50 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Microdilution INT assay",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "25 g fresh mushroom ground, soaked twice in 250 mL ethanol or chloroform for 48 h, filtered, vacuum-evaporated, stored at 4 °C",
+              "cytotoxicity_cc50": null,
+              "assay_method": "96-well microplate broth dilution with 0.02% p-iodonitrotetrazolium (INT) read after 1 h incubation at 32 °C",
+              "reference_control": "Fluconazole (0.006 mg/mL)"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 6538)",
+              "source_url": "https://www.researchgate.net/publication/381547858_Chitosan_extraction_from_Amanita_phalloides_yield_crystallinity_degree_of_deacetylation_azo_dye_removal_and_antibacterial_properties",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "19 ± 0.30 mm (8 wt% chitosan)",
+              "assay_type": "Agar-well diffusion",
+              "extraction_solvent": "Sequential (HCl, NaOH, H2O2)",
+              "preparation_method": "Chitosan extracted sequentially using 7% HCl (demineralization), 1 M NaOH (deproteinization), and H2O2 (decolorization); dissolved in 1% acetic acid",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar-well diffusion (6 mm wells), inhibition zones measured after 24 h at 37 °C",
+              "reference_control": "Ciprofloxacin (CIP-5) 50 µg"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa (ATCC 9027)",
+              "source_url": "https://www.researchgate.net/publication/381547858_Chitosan_extraction_from_Amanita_phalloides_yield_crystallinity_degree_of_deacetylation_azo_dye_removal_and_antibacterial_properties",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "19 ± 0.30 mm (8 wt% chitosan)",
+              "assay_type": "Agar-well diffusion",
+              "extraction_solvent": "Sequential (HCl, NaOH, H2O2)",
+              "preparation_method": "Chitosan extracted sequentially using 7% HCl (demineralization), 1 M NaOH (deproteinization), and H2O2 (decolorization); dissolved in 1% acetic acid",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar-well diffusion (6 mm wells), inhibition zones measured after 24 h at 37 °C",
+              "reference_control": "Ciprofloxacin (CIP-5) 50 µg"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "alpha-amanitin",
+              "compound2_name": "phalloidin",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://www.researchgate.net/publication/262956267_Analysis_of_phenolic_constituents_antiradical_and_antimicrobial_activity_of_edible_mushrooms_growing_wild_in_Poland"
+              ],
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "protocatechuic acid",
+              "compound2_name": "p-hydroxybenzoic acid",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://www.researchgate.net/publication/262956267_Analysis_of_phenolic_constituents_antiradical_and_antimicrobial_activity_of_edible_mushrooms_growing_wild_in_Poland"
+              ],
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:48:09.811000Z",
+        "credits_used": 293
+      }
+    },
+    {
+      "plant_name": "Amaranthus blitum",
+      "extraction_timestamp": "2026-02-19T11:37:21.681808",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Amaranthus blitum",
+          "local_name": "Lude saag",
+          "family": "Amaranthaceae",
+          "genus": "Amaranthus",
+          "growth_form": "Annual Herb",
+          "location_found_nepal": "Madi valley (Chitwan district), Far-west Nepal, Shivalik region, Terai and mid-hills up to 2000m altitude.",
+          "traditional_usage": "Used to treat gastrointestinal complaints such as diarrhoea and dysentery, jaundice, headaches, mouth and throat ulcers, and skin diseases like eczema and rheumatism. Also used for magico-religious purposes.",
+          "traditional_usage_source_url": "https://discovery.researcher.life/article/folk-use-of-plant-resource-at-madi-valley-of-chitwan-district-nepal/cfb9bfdfa7213a57a35c6a2b084115d2",
+          "cultural_consensus_icf": 0.84,
+          "preparation_solvent": "Water/Methanol",
+          "preparation_method": "Boiled fresh leaves, juice extraction, or powdered root/seeds.",
+          "preparation_method_source_url": "https://ethnobotanyjournal.org/index.php/era/article/download/5877/1937/57253",
+          "extraction_solvent": "Aqueous/Methanolic/Ethanolic",
+          "compound_class": "Flavonoids (Rutin, Quercetin), Betalains (Amaranthine, Isoamaranthine), Phenolic acids",
+          "compound_class_source_url": "https://www.sciencedirect.com/science/article/pii/S0981942822001772",
+          "parts_with_amr": "Leaves, Roots, Whole plant",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/396804267_Evaluation_of_Antibacterial_Antioxidant_Anti-Biofilm_and_Anti-Cancer_Potential_of_Magnesium_Oxide_Nanoparticles_Against_Multidrug-Resistant_Klebsiella_Pneumoniae",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/396804267_Evaluation_of_Antibacterial_Antioxidant_Anti-Biofilm_and_Anti-Cancer_Potential_of_Magnesium_Oxide_Nanoparticles_Against_Multidrug-Resistant_Klebsiella_Pneumoniae",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "8 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Aqueous",
+              "preparation_method": "Leaf aqueous extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/396804267_Evaluation_of_Antibacterial_Antioxidant_Anti-Biofilm_and_Anti-Cancer_Potential_of_Magnesium_Oxide_Nanoparticles_Against_Multidrug-Resistant_Klebsiella_Pneumoniae",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "6 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Aqueous",
+              "preparation_method": "Leaf aqueous extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Enterococcus faecalis",
+              "source_url": "https://www.researchgate.net/publication/396804267_Evaluation_of_Antibacterial_Antioxidant_Anti-Biofilm_and_Anti-Cancer_Potential_of_Magnesium_Oxide_Nanoparticles_Against_Multidrug-Resistant_Klebsiella_Pneumoniae",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "7 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Aqueous",
+              "preparation_method": "Leaf aqueous extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Klebsiella pneumoniae",
+              "source_url": "https://www.researchgate.net/publication/396804267_Evaluation_of_Antibacterial_Antioxidant_Anti-Biofilm_and_Anti-Cancer_Potential_of_Magnesium_Oxide_Nanoparticles_Against_Multidrug-Resistant_Klebsiella_Pneumoniae",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "6 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Aqueous",
+              "preparation_method": "Leaf aqueous extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/389168406_In_vitro_Antibiofilm_Activity-directed_In_silico_Identification_of_Natural_Products_Targeting_Bacterial_Biofilm_Regulators_SarA_and_LasR",
+              "mic_value": "500 μg/mL",
+              "mbc_value": "500 μg/mL",
+              "zoi_value": null,
+              "assay_type": "Antibiofilm/Antimicrobial",
+              "extraction_solvent": null,
+              "preparation_method": "Whole plant extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/267336171_Antioxidant_and_Antibacterial_Activities_of_Methanolic_Extract_of_BAU_Kul_Ziziphus_mauritiana_an_Improved_Variety_of_Fruit_from_Bangladesh",
+              "mic_value": "0.78125 mg/mL",
+              "mbc_value": "1.5625 mg/mL",
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanolic extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/267336171_Antioxidant_and_Antibacterial_Activities_of_Methanolic_Extract_of_BAU_Kul_Ziziphus_mauritiana_an_Improved_Variety_of_Fruit_from_Bangladesh",
+              "mic_value": "0.78125 mg/mL",
+              "mbc_value": "1.5625 mg/mL",
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanolic extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Amaranthine",
+              "compound2_name": "Isoamaranthine",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://www.sciencedirect.com/science/article/abs/pii/S0254629924000656",
+                "https://www.researchgate.net/publication/359941335_Prospects_and_potentials_of_underutilized_leafy_Amaranths_as_vegetable_use_for_health-promotion"
+              ],
+              "efflux_inhibition": true
+            },
+            {
+              "compound1_name": "Rutin",
+              "compound2_name": "Quercetin",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_urls": [
+                "https://www.researchgate.net/publication/27798059_The_challenges_of_overcoming_antibiotic_resistance_Plant_extracts_as_potential_sources_of_antimicrobial_and_resistance_modifying_agents"
+              ],
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:52:21.403000Z",
+        "credits_used": 329
+      }
+    },
+    {
+      "plant_name": "Androsace muscoidea",
+      "extraction_timestamp": "2026-02-19T11:42:14.114216",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Androsace muscoidea Duby",
+          "local_name": "Phangdhum",
+          "family": "Primulaceae",
+          "genus": "Androsace",
+          "growth_form": "Perennial stoloniferous herb forming dense mats or cushions",
+          "location_found_nepal": "Upper Mustang (way to Chele), Dolpa, Humla, Jumla, Darchula; altitude 3300-5600m",
+          "traditional_usage": "Flowers are used in the treatment of fever, influenza, urinary tract infections, and poisonous snake bites. It is a key species in the Sowa Rigpa traditional medical system in the Trans-Himalayan region.",
+          "traditional_usage_source_url": "https://archive.org/download/ethnobotany0000amri/ethnobotany0000amri.pdf",
+          "cultural_consensus_icf": 0.9,
+          "preparation_solvent": "Water",
+          "preparation_method": "Traditional decoction of flowers or use as a component in composite Sowa Rigpa herbal pills.",
+          "preparation_method_source_url": "https://archive.org/download/ethnobotany0000amri/ethnobotany0000amri.pdf",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Saponins, Flavonoids, Phenolics",
+          "compound_class_source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+          "parts_with_amr": "Flowers, Whole plant",
+          "parts_with_amr_source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Active",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Crude extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disc diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Active",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Crude extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disc diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "No inhibition",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Crude extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disc diffusion",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Androsacenol",
+              "compound2_name": "Quercetin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source URL": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T05:57:14.199000Z",
+        "credits_used": 687
+      }
+    },
+    {
+      "plant_name": "Anemonastrum trullifolium",
+      "extraction_timestamp": "2026-02-19T12:39:04.321456",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Anemonastrum trullifolium",
+          "local_name": "Jhare jara, Jibre jhar, Burchin",
+          "family": "Ranunculaceae",
+          "genus": "Anemonastrum",
+          "growth_form": "Perennial herb",
+          "location_found_nepal": "Western, Central, and Eastern Nepal; 2500-5000 m (common in alpine meadows)",
+          "traditional_usage": "Roots and flowers used for gastric disease, snakebite, muscle relaxation, blood activation, antitussive, chronic bronchitis, peripheral nerve paralysis, and neuralgia.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+          "cultural_consensus_icf": 0.45,
+          "preparation_solvent": "Methanol",
+          "preparation_method": "Roots and flowers are typically used as extracts or decoctions.",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Lactones (Anemonin, Protoanemonin), Triterpenoid Saponins",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+          "parts_with_amr": "Roots and Flowers",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": null,
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": null,
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Anemonin",
+              "compound2_name": "Protoanemonin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5343163/",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T06:54:05.639000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Anethum graveolens",
+      "extraction_timestamp": "2026-02-19T12:42:54.435950",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Anethum graveolens",
+          "local_name": "Soupa / Sowa",
+          "family": "Apiaceae",
+          "genus": "Anethum",
+          "growth_form": "Annual herb",
+          "location_found_nepal": "Eastern Nepal (Sankhuwasabha, Taplejung, Khotang, Ilam); Western Nepal (Kailali, Kanchanpur)",
+          "traditional_usage": "Used for gastrointestinal disorders (dyspepsia, flatulence, colic), respiratory ailments (cough, cold), and as a pregnancy diet supplement (shoot cooked). Leaf paste used externally for wound dressing.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/375462698_Medicinal_ethnobotany_of_the_Yakkha_community_in_eastern_Nepal",
+          "cultural_consensus_icf": 0.78,
+          "preparation_solvent": "Essential oil / Methanol / Ethyl acetate",
+          "preparation_method": "Hydrodistillation for essential oil; Maceration or Soxhlet extraction for solvent extracts.",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10534171/",
+          "extraction_solvent": "Hydrodistillation / Methanol",
+          "compound_class": "Terpenoids (monoterpenes: carvone, limonene; phenylpropanoids: dillapiole), Flavonoids",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10196309/",
+          "parts_with_amr": "Seeds, Leaves",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736926/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 25923)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10534171/",
+              "mic_value": "0.50 mg/mL",
+              "mbc_value": "1.00 mg/mL",
+              "zoi_value": "12 ± 0.8 mm",
+              "assay_type": "Broth micro-dilution",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Oil dissolved in 0.5% DMSO (v/v)",
+              "cytotoxicity_cc50": "45 µg/mL (HEK-293)",
+              "assay_method": "CLSI-M07-A9",
+              "reference_control": "Gentamicin (10 µg disk)"
+            },
+            {
+              "pathogen_name": "Escherichia coli (ATCC 25922)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10534171/",
+              "mic_value": "0.75 mg/mL",
+              "mbc_value": "1.50 mg/mL",
+              "zoi_value": "10 ± 0.5 mm",
+              "assay_type": "Broth micro-dilution",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Oil dissolved in 0.5% DMSO (v/v)",
+              "cytotoxicity_cc50": "52 µg/mL (HEK-293)",
+              "assay_method": "CLSI-M07-A9",
+              "reference_control": "Gentamicin (10 µg)"
+            },
+            {
+              "pathogen_name": "Bacillus cereus (ATCC 11778)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736926/",
+              "mic_value": "0.30 mg/mL",
+              "mbc_value": "0.60 mg/mL",
+              "zoi_value": "13 ± 0.6 mm",
+              "assay_type": "Agar well diffusion",
+              "extraction_solvent": "Methanol (leaf extract)",
+              "preparation_method": "Maceration 48h, filtered, evaporated, re-dissolved in 5% DMSO",
+              "cytotoxicity_cc50": "38 µg/mL (HEK-293)",
+              "assay_method": "CLSI-M07-A9",
+              "reference_control": "Ampicillin (10 µg)"
+            },
+            {
+              "pathogen_name": "Candida albicans (ATCC 10231)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736926/",
+              "mic_value": "0.80 mg/mL",
+              "mbc_value": null,
+              "zoi_value": "9 ± 0.7 mm",
+              "assay_type": "Agar disc diffusion",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "EO in 0.5% Tween-80",
+              "cytotoxicity_cc50": "70 µg/mL (RAW-264.7)",
+              "assay_method": "CLSI-M27-A3",
+              "reference_control": "Fluconazole (25 µg)"
+            },
+            {
+              "pathogen_name": "Salmonella typhimurium (ATCC 14028)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10196309/",
+              "mic_value": "0.60 mg/mL",
+              "mbc_value": "1.20 mg/mL",
+              "zoi_value": "11 ± 0.9 mm",
+              "assay_type": "Broth micro-dilution",
+              "extraction_solvent": "Ethyl acetate (seed extract)",
+              "preparation_method": "Soxhlet 6h, evaporated, re-suspended in 2% DMSO",
+              "cytotoxicity_cc50": "44 µg/mL (Vero)",
+              "assay_method": "CLSI-M07-A9",
+              "reference_control": "Ciprofloxacin (5 µg)"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Carvone",
+              "compound2_name": "Limonene",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://doi.org/10.1016/S0168-1605(01)00707-7",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "Carvone",
+              "compound2_name": "Dillapiole",
+              "checkerboard_FIC": 0.48,
+              "interaction_class": "synergy",
+              "source_url": "https://www.tandfonline.com/doi/pdf/10.1080/10942912.2017.1280504",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T06:57:55.299000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Angelica archangelica",
+      "extraction_timestamp": "2026-02-19T13:14:52.236895",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Angelica archangelica L.",
+          "local_name": "Gananu",
+          "family": "Apiaceae",
+          "genus": "Angelica",
+          "growth_form": "Perennial Herb",
+          "location_found_nepal": "Darchula, Baitadi, Humla, Bajhang",
+          "traditional_usage": "Root decoction or soup used to treat stomach pain and gastritis; seeds used as spice; used for nerve disorders.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5789610/",
+          "cultural_consensus_icf": 0.95,
+          "preparation_solvent": "Water",
+          "preparation_method": "Root decoction",
+          "preparation_method_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5789610/",
+          "extraction_solvent": "Essential Oil (Hydrodistillation)",
+          "compound_class": "Furanocoumarins and Terpenoids",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9822461/",
+          "parts_with_amr": "Roots and Seeds",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/313818355_Chemical_Composition_and_Antibacterial_Activity_of_Angelica_archangelica_Root_Essential_Oil",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/313818355_Chemical_Composition_and_Antibacterial_Activity_of_Angelica_archangelica_Root_Essential_Oil",
+              "mic_value": "14.2 µL/mL",
+              "mbc_value": "56.8 µL/mL",
+              "zoi_value": null,
+              "assay_type": "Modified resazurin microtiter-plate assay",
+              "extraction_solvent": "Essential Oil (Hydrodistillation)",
+              "preparation_method": "Hydrodistillation of roots of wild growing A. archangelica",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth Microdilution",
+              "reference_control": "Gentamicin (MIC 0.25 µg/mL, MBC 0.75 µg/mL)"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/313818355_Chemical_Composition_and_Antibacterial_Activity_of_Angelica_archangelica_Root_Essential_Oil",
+              "mic_value": "28.4 µL/mL",
+              "mbc_value": "113.6 µL/mL",
+              "zoi_value": null,
+              "assay_type": "Modified resazurin microtiter-plate assay",
+              "extraction_solvent": "Essential Oil (Hydrodistillation)",
+              "preparation_method": "Hydrodistillation of roots of wild growing A. archangelica",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth Microdilution",
+              "reference_control": "Gentamicin (MIC 0.50 µg/mL, MBC 1 µg/mL)"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus subsp. aureus ATCC 6538",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8658896/",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "15–21 mm",
+              "assay_type": "Agar Well Diffusion",
+              "extraction_solvent": "Essential Oil (Hydrodistillation)",
+              "preparation_method": "Hydrodistillation of roots of Arctic A. archangelica",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar Well Diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa ATCC 27853",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8658896/",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "< 7 mm",
+              "assay_type": "Agar Well Diffusion",
+              "extraction_solvent": "Essential Oil (Hydrodistillation)",
+              "preparation_method": "Hydrodistillation of roots of Arctic A. archangelica",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar Well Diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 6538)",
+              "source_url": "https://www.researchgate.net/publication/262024135_Essential_Oil_Composition_and_Antimicrobial_Activity_of_Angelica_archangelica_L_Apiaceae_Roots",
+              "mic_value": "1.75 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Acetone",
+              "preparation_method": "Essential Oil of roots of A. archangelica from central Italy",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth Microdilution",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa (ATCC 27858)",
+              "source_url": "https://www.researchgate.net/publication/262024135_Essential_Oil_Composition_and_Antimicrobial_Activity_of_Angelica_archangelica_L_Apiaceae_Roots",
+              "mic_value": "2.00 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Broth Microdilution",
+              "extraction_solvent": "Acetone",
+              "preparation_method": "Essential Oil of roots of A. archangelica from central Italy",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth Microdilution",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "gamma-Terpinene",
+              "compound2_name": "(+)-beta-Pinene",
+              "checkerboard_FIC": 0.34,
+              "interaction_class": "synergy",
+              "source_url": "https://doi.org/10.1055/s-2007-981554",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "gamma-Terpinene",
+              "compound2_name": "Geranyl acetate",
+              "checkerboard_FIC": 0.31,
+              "interaction_class": "synergy",
+              "source_url": "https://doi.org/10.1055/s-2007-981554",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "trans-Geraniol",
+              "compound2_name": "E- and Z-(+/-)-Nerolidol",
+              "checkerboard_FIC": 0.36,
+              "interaction_class": "synergy",
+              "source_url": "https://doi.org/10.1055/s-2007-981554",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "alpha-pinene",
+              "compound2_name": "limonene",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/353295069_Alpha-pinene_and_Limonene_as_NorA_Efflux_Pump_Inhibitors",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-20T07:20:46.481000Z",
+        "credits_used": 4373
+      }
+    },
+    {
+      "plant_name": "Anemonastrum polyanthes",
+      "extraction_timestamp": "2026-02-22T15:31:59.161135",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Anemonastrum polyanthes (D. Don) Holub",
+          "local_name": "Rathabiratha",
+          "family": "Ranunculaceae",
+          "genus": "Anemonastrum",
+          "growth_form": "Robust perennial herb",
+          "location_found_nepal": "Dolpa, Humla, Gorkha, Mustang, Syangja; Altitude 2400-4300m",
+          "traditional_usage": "Indigestion, cough, cold, bile disorder, joint pains, food poisoning",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/237010961_Non-Timber_Forest_Products_of_Nepal_Himalaya_Database_of_Some_Important_Species_Found_in_the_Mountain_Protected_Areas_and_Surrounding_Regions",
+          "cultural_consensus_icf": 0.43,
+          "preparation_solvent": "80% Methanol",
+          "preparation_method": "Methanol extraction of dried whole plant or seeds",
+          "preparation_method_source_url": "https://doi.org/10.1016/0378-8741(96)01416-8",
+          "extraction_solvent": "80% Methanol",
+          "compound_class": "Alkaloids, saponins, tannins, terpenoids, flavonoids, phenolic acids",
+          "compound_class_source_url": "https://www.researchgate.net/publication/237010961_Non-Timber_Forest_Products_of_Nepal_Himalaya_Database_of_Some_Important_Species_Found_in_the_Mountain_Protected_Areas_and_Surrounding_Regions",
+          "parts_with_amr": "Whole plant, seeds",
+          "parts_with_amr_source_url": "https://doi.org/10.1016/0378-8741(96)01416-8",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Bacillus subtilis",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12484762/",
+              "mic_value": "1.25 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Dried plant material extracted with 80% methanol",
+              "cytotoxicity_cc50": ">100 μg/mL",
+              "assay_method": "Broth dilution / Disc diffusion",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12484762/",
+              "mic_value": ">10 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Dried plant material extracted with 80% methanol",
+              "cytotoxicity_cc50": ">100 μg/mL",
+              "assay_method": "Broth dilution / Disc diffusion",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Mycobacterium phlei",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12484762/",
+              "mic_value": "0.625 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Dried plant material extracted with 80% methanol",
+              "cytotoxicity_cc50": ">100 μg/mL",
+              "assay_method": "Broth dilution / Disc diffusion",
+              "reference_control": "Isoniazid"
+            },
+            {
+              "pathogen_name": "Microsporum gypseum",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12484762/",
+              "mic_value": "2.5 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "80% Methanol",
+              "preparation_method": "Dried plant material extracted with 80% methanol",
+              "cytotoxicity_cc50": ">100 μg/mL",
+              "assay_method": "Broth dilution / Disc diffusion",
+              "reference_control": "Nystatin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Protoanemonin",
+              "compound2_name": "Anepolyantin A",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/237010961_Non-Timber_Forest_Products_of_Nepal_Himalaya_Database_of_Some_Important_Species_Found_in_the_Mountain_Protected_Areas_and_Surrounding_Regions",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T09:46:59.273000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Anemonastrum trullifolium",
+      "extraction_timestamp": "2026-02-22T15:37:26.470929",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Anemonastrum trullifolium",
+          "local_name": "Jhare jara (झारे जरा)",
+          "family": "Ranunculaceae",
+          "genus": "Anemonastrum",
+          "growth_form": "Perennial herb",
+          "location_found_nepal": "Humla, Mustang, Manang, Dolpa, and Sikkim border; 2500–4500 m altitude.",
+          "traditional_usage": "Used for gastric diseases, snakebites, muscle relaxation, blood activation, antitussive, skin diseases, and wounds.",
+          "traditional_usage_source_url": "http://www.efloras.org/florataxon.aspx?flora_id=110&taxon_id=200007500",
+          "cultural_consensus_icf": 0.78,
+          "preparation_solvent": "Water (Decoction)",
+          "preparation_method": "Root or whole plant is boiled in water to prepare a decoction for internal use or applied as a paste for skin diseases.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/280235757_Ethnomedicinal_survey_of_plants_used_by_indigenous_groups_in_Humla_and_Kanchanpur_districts_Western_Nepal",
+          "extraction_solvent": "Methanol, Ethanol, or Essential oil",
+          "compound_class": "Triterpenoid saponins (Burchinosides A-E), Protoanemonin, Anemonin",
+          "compound_class_source_url": "https://www.sciencedirect.com/science/article/pii/S2211383516303732",
+          "parts_with_amr": "Roots, Flowers, and Essential oil of the whole plant",
+          "parts_with_amr_source_url": "https://www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10644026",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10644026",
+              "mic_value": "125 µg/mL",
+              "mbc_value": "250 µg/mL",
+              "zoi_value": "15.6 ± 0.4 mm",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Fresh whole plant hydrodistillation",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and Broth microdilution",
+              "reference_control": "Streptomycin"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10644026",
+              "mic_value": "250 µg/mL",
+              "mbc_value": "500 µg/mL",
+              "zoi_value": "12.4 ± 0.3 mm",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Fresh whole plant hydrodistillation",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and Broth microdilution",
+              "reference_control": "Streptomycin"
+            },
+            {
+              "pathogen_name": "Bacillus subtilis",
+              "source_url": "https://www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10644026",
+              "mic_value": "125 µg/mL",
+              "mbc_value": "250 µg/mL",
+              "zoi_value": "14.8 ± 0.5 mm",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Fresh whole plant hydrodistillation",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and Broth microdilution",
+              "reference_control": "Streptomycin"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10644026",
+              "mic_value": "500 µg/mL",
+              "mbc_value": "1000 µg/mL",
+              "zoi_value": "10.2 ± 0.2 mm",
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Essential oil (Hydrodistillation)",
+              "preparation_method": "Fresh whole plant hydrodistillation",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and Broth microdilution",
+              "reference_control": "Streptomycin"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Anemonin",
+              "compound2_name": "Burchinoside A",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/313012150_Anemone_medicinal_plants_Ethnopharmacology_phytochemistry_and_biology",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T09:52:24.388000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Anthogonium gracile",
+      "extraction_timestamp": "2026-02-22T15:43:19.916528",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Anthogonium gracile Wall. ex Lindl.",
+          "local_name": "Bhui Sunkhari (Nepali)",
+          "family": "Orchidaceae",
+          "genus": "Anthogonium",
+          "growth_form": "Terrestrial orchid/herb",
+          "location_found_nepal": "Nuwakot (Okharpauwa), Dolakha, Kangchenjunga Landscape, Bagmati Province",
+          "traditional_usage": "Pseudobulbs are chewed for relief from neck pain and throat irritation; paste of pseudobulbs is applied externally to treat fractures, cracking heels, and boils.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/368652514_Medicinal_plants_and_their_use_by_an_ethnic_minority_Jirel_in_Dolakha_district_Central_Nepal",
+          "cultural_consensus_icf": 0.74,
+          "preparation_solvent": "Water",
+          "preparation_method": "Pseudobulbs are crushed into a paste for external application or chewed raw.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/368652514_Medicinal_plants_and_their_use_by_an_ethnic_minority_Jirel_in_Dolakha_district_Central_Nepal",
+          "extraction_solvent": "Methanol, Ethanol, Chloroform",
+          "compound_class": "Phenolics (9,10-dihydro-phenanthrenes), Stilbenoids, Flavonoids",
+          "compound_class_source_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-24274-3.pdf",
+          "parts_with_amr": "Pseudobulbs, Rhizomes, Whole plant",
+          "parts_with_amr_source_url": "https://www.gbpihed.gov.in/PDF/Publication/Bulletin/Envis_Bulletin_Himalayan_Ecology_Vol_30_2022.pdf",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/127676/140093521.pdf",
+              "mic_value": null,
+              "mbc_value": "3.12 mg/mL",
+              "zoi_value": null,
+              "assay_type": "Antibacterial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Cold maceration of pseudobulbs",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar well diffusion",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.gbpihed.gov.in/PDF/Publication/Bulletin/Envis_Bulletin_Himalayan_Ecology_Vol_30_2022.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Potent activity",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol/Ethanol",
+              "preparation_method": "Whole plant extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": null,
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://www.gbpihed.gov.in/PDF/Publication/Bulletin/Envis_Bulletin_Himalayan_Ecology_Vol_30_2022.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "Potent activity",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol/Ethanol",
+              "preparation_method": "Whole plant extract",
+              "cytotoxicity_cc50": null,
+              "assay_method": null,
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Coelonin (9,10-dihydro-2,5-dimethoxyphenanthrene-1,7-diol)",
+              "compound2_name": "p-Hydroxybenzyl alcohol",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-24274-3.pdf",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T09:58:20.194000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Ardisia humilis",
+      "extraction_timestamp": "2026-02-22T15:47:53.248015",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Ardisia humilis Vahl",
+          "local_name": "Chulsi (Kukur kanda)",
+          "family": "Myrsinaceae (Primulaceae)",
+          "genus": "Ardisia",
+          "growth_form": "Erect, branched, glabrous shrub (up to 3-6 meters)",
+          "location_found_nepal": "Hill Sal Forest, Terai, Kavrepalanchok District, and central Nepal; Altitude: 0-900 m.",
+          "traditional_usage": "Treatment of diarrhea, dysentery, rheumatism, skin diseases, cough, heart disease, liver poisoning, and snake bites (bark paste).",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/342294388_Traditional_Uses_of_Medicinal_Plants_by_Ethnic_People_in_Kavrepalanchok_District_Central_Nepal",
+          "cultural_consensus_icf": 0.82,
+          "preparation_solvent": "Methanol",
+          "preparation_method": "Dried leaves ground into powder, soaked in 100% methanol for 10 days with occasional shaking, filtered and concentrated.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Isocoumarins (Bergenin), Benzoquinones (Embelin), Flavonoids (Quercetin, Myricitrin), Anthocyanins.",
+          "compound_class_source_url": "https://www.researchgate.net/publication/8110239_The_genus_Ardisia_A_novel_source_of_health-promoting_compounds_and_phytopharmaceuticals",
+          "parts_with_amr": "Leaves and Roots",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+              "mic_value": "500 μg/mL",
+              "mbc_value": null,
+              "zoi_value": "12 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanol extraction (soaking dried leaf powder for 10 days)",
+              "cytotoxicity_cc50": "2.26 μg/mL (LC50)",
+              "assay_method": "Disc diffusion assay; Brine shrimp lethality assay",
+              "reference_control": "Streptokinase (thrombolytic); Vincristine sulfate (cytotoxicity)"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+              "mic_value": "1000 μg/mL",
+              "mbc_value": null,
+              "zoi_value": "10 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanol extraction (soaking dried leaf powder for 10 days)",
+              "cytotoxicity_cc50": "2.26 μg/mL (LC50)",
+              "assay_method": "Disc diffusion assay; Brine shrimp lethality assay",
+              "reference_control": "Streptokinase (thrombolytic); Vincristine sulfate (cytotoxicity)"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+              "mic_value": "1000 μg/mL",
+              "mbc_value": null,
+              "zoi_value": "11 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanol extraction (soaking dried leaf powder for 10 days)",
+              "cytotoxicity_cc50": "2.26 μg/mL (LC50)",
+              "assay_method": "Disc diffusion assay; Brine shrimp lethality assay",
+              "reference_control": "Streptokinase (thrombolytic); Vincristine sulfate (cytotoxicity)"
+            },
+            {
+              "pathogen_name": "Salmonella typhimurium",
+              "source_url": "https://www.researchgate.net/publication/236330553_Phytochemical_and_pharmacological_properties_of_the_methanolic_extract_of_Ardisia_humilis_Vahl",
+              "mic_value": "1000 μg/mL",
+              "mbc_value": null,
+              "zoi_value": "10 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Methanol extraction (soaking dried leaf powder for 10 days)",
+              "cytotoxicity_cc50": "2.26 μg/mL (LC50)",
+              "assay_method": "Disc diffusion assay; Brine shrimp lethality assay",
+              "reference_control": "Streptokinase (thrombolytic); Vincristine sulfate (cytotoxicity)"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Bergenin",
+              "compound2_name": "Quercetin",
+              "checkerboard_FIC": 0.48,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/8110239_The_genus_Ardisia_A_novel_source_of_health-promoting_compounds_and_phytopharmaceuticals",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "Embelin",
+              "compound2_name": "Bergenin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/365442021_Optimization_of_Extraction_Conditions_and_Cytotoxic_Activity_of_Rapanone_in_Comparison_to_Its_Homologue_Embelin",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T10:02:51.614000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Arivela viscosa",
+      "extraction_timestamp": "2026-02-22T15:51:35.471882",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Arivela viscosa (L.) Raf.",
+          "local_name": "Ban Methi (बान मेथी)",
+          "family": "Cleomaceae",
+          "genus": "Arivela",
+          "growth_form": "Annual herb",
+          "location_found_nepal": "Kailali, Parbat, and Terai regions of Nepal",
+          "traditional_usage": "Leaves are used for headache and earache; seeds for treating wounds; root paste for earaches.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/345230904_Ethnomedicinal_uses_of_plants_by_major_ethnic_groups_of_Hilly_Districts_in_Nepal_A_review",
+          "cultural_consensus_icf": 0.81,
+          "preparation_solvent": "Water",
+          "preparation_method": "Leaves are crushed into a paste or boiled for infusion; roots are made into a paste.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/345230904_Ethnomedicinal_uses_of_plants_by_major_ethnic_groups_of_Hilly_Districts_in_Nepal_A_review",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Flavonoids, Coumarinolignoids, Glucosinolates",
+          "compound_class_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503856/",
+          "parts_with_amr": "Leaves, seeds, and fruits",
+          "parts_with_amr_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603310/",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Candida albicans",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7785440/",
+              "mic_value": "0.5-1.25 µL/mL",
+              "mbc_value": "1.0-2.5 µL/mL",
+              "zoi_value": null,
+              "assay_type": "Antifungal activity of nanoemulsion",
+              "extraction_solvent": "Essential oil (hydro-distillation)",
+              "preparation_method": "Nanoemulsion (ultrasonic method)",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": "Nystatin"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603310/",
+              "mic_value": "1.25 µL/mL",
+              "mbc_value": "2.5 µL/mL",
+              "zoi_value": "21.25 mm",
+              "assay_type": "Antibacterial activity of green-synthesized AgNPs",
+              "extraction_solvent": "Aqueous (fruit extract)",
+              "preparation_method": "Silver nanoparticle synthesis",
+              "cytotoxicity_cc50": "35.6 µg/mL (MCF-7 cells)",
+              "assay_method": "Agar well diffusion and broth dilution",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603310/",
+              "mic_value": "1.25 µL/mL",
+              "mbc_value": "2.5 µL/mL",
+              "zoi_value": "21.25 mm",
+              "assay_type": "Antibacterial activity of green-synthesized AgNPs",
+              "extraction_solvent": "Aqueous (fruit extract)",
+              "preparation_method": "Silver nanoparticle synthesis",
+              "cytotoxicity_cc50": "35.6 µg/mL (MCF-7 cells)",
+              "assay_method": "Agar well diffusion and broth dilution",
+              "reference_control": "Gentamicin"
+            },
+            {
+              "pathogen_name": "S. aureus",
+              "source_url": "https://www.phcogj.com/sites/default/files/PharmacognJ-13-5-1225.pdf",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Cytotoxicity and phytochemical screening",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration",
+              "cytotoxicity_cc50": "129.04 µg/mL",
+              "assay_method": "MTT assay",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Rutin",
+              "compound2_name": "Quercetin",
+              "checkerboard_FIC": 0.42,
+              "interaction_class": "synergy",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503856/",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T10:06:33.541000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Asclepias curassavica",
+      "extraction_timestamp": "2026-02-22T15:54:29.750839",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Asclepias curassavica",
+          "local_name": "Khursani kose phul",
+          "family": "Apocynaceae",
+          "genus": "Asclepias",
+          "growth_form": "Perennial herb or shrub",
+          "location_found_nepal": "Kangchenjunga Conservation Area (Panchthar), Terai forest (Western Nepal), Hilly Districts. Altitude: 700-1500 m.",
+          "traditional_usage": "Roots used as emetic, and for cancer, warts, and snake bite. Whole plant liquid used as antiseptic by Newar community. Used for treatment of gonorrhoea, pneumonia, mastitis, and as a styptic for bleeding wounds.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/224970937_An_ethnobotanical_survey_of_medicinal_plants_used_in_Terai_forest_of_western_Nepal",
+          "cultural_consensus_icf": 0.93,
+          "preparation_solvent": "Methanol, Chloroform, Water",
+          "preparation_method": "Decoction, Fresh paste, Cold percolation, and Soxhlet extraction",
+          "preparation_method_source_url": "https://www.mdpi.com/2223-7747/12/12/2274",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Cardenolides (asclepin, calotropin), Flavonols (quercetin, kaempferol glycosides), Alkaloids, Saponins, Tannins",
+          "compound_class_source_url": "https://www.researchgate.net/publication/297715517_Chemical_constituents_and_pharmacological_effects_of_Asclepias_curassavica_-_A_review",
+          "parts_with_amr": "Roots, Leaves, Latex, Flowers",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/292703362_Evaluation_of_antimicrobial_activity_of_root_extract_of_Asclepias_curassavica",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/279916575_Antimicrobial_efficacy_of_Bridelia_retusa_L_Spreng_and_Asclepias_curassavica_L",
+              "mic_value": "3.06 mg/mL",
+              "mbc_value": "100 mg/mL",
+              "zoi_value": null,
+              "assay_type": "In-vitro bioassay",
+              "extraction_solvent": "Root extract (Methanol/Petroleum spirit)",
+              "preparation_method": "Cold percolation and Soxhlet extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Helicobacter pylori",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9433900/",
+              "mic_value": "1-2 μg/mL",
+              "mbc_value": "2 μg/mL",
+              "zoi_value": null,
+              "assay_type": "Antibacterial activity",
+              "extraction_solvent": "Latex (asclepain cI proteolytic enzyme)",
+              "preparation_method": "Purification of proteolytic enzyme from latex",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Broth microdilution",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Dickeya solani",
+              "source_url": "https://www.mdpi.com/2223-7747/12/12/2274",
+              "mic_value": "250 mg/L",
+              "mbc_value": null,
+              "zoi_value": "1.23 cm",
+              "assay_type": "Disc-diffusion and Micro-dilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Dried leaf powder solvent extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Micro-dilution",
+              "reference_control": "Gentamicin (20 µg/disc)"
+            },
+            {
+              "pathogen_name": "Pectobacterium atrosepticum",
+              "source_url": "https://www.mdpi.com/2223-7747/12/12/2274",
+              "mic_value": "500 mg/L",
+              "mbc_value": null,
+              "zoi_value": "1.60 cm",
+              "assay_type": "Disc-diffusion and Micro-dilution",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Dried leaf powder solvent extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Micro-dilution",
+              "reference_control": "Gentamicin (20 µg/disc)"
+            },
+            {
+              "pathogen_name": "Entamoeba histolytica",
+              "source_url": "https://www.researchgate.net/publication/297715517_Chemical_constituents_and_pharmacological_effects_of_Asclepias_curassavica_-_A_review",
+              "mic_value": ">0.25 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antiparasitic activity",
+              "extraction_solvent": "Hydroalcoholic (95% methanol-water)",
+              "preparation_method": "Dried sap of plant",
+              "cytotoxicity_cc50": null,
+              "assay_method": null,
+              "reference_control": null
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Asclepin",
+              "compound2_name": "Quercetin",
+              "checkerboard_FIC": 0.45,
+              "interaction_class": "synergy",
+              "source_url": "https://www.researchgate.net/publication/297715517_Chemical_constituents_and_pharmacological_effects_of_Asclepias_curassavica_-_A_review",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "Quercetin",
+              "compound2_name": "Kaempferol",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://vdoc.pub/documents/introduction-to-ecological-biochemistry-31io5jilom4g",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T10:09:29.028000Z",
+        "credits_used": 265
+      }
+    },
+    {
+      "plant_name": "Bassia scoparia",
+      "extraction_timestamp": "2026-02-22T15:58:24.910610",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Bassia scoparia",
+          "local_name": "sf]lrof (Kochia)",
+          "family": "Amaranthaceae",
+          "genus": "Bassia",
+          "growth_form": "Herb",
+          "location_found_nepal": "Godawari (National Botanical Garden), Central and Farwest Nepal",
+          "traditional_usage": "Used for clearing damp-heat, promoting diuresis, and treating skin diseases (eczema, pimples) and musculoskeletal disorders.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12482698/",
+          "cultural_consensus_icf": 0.87,
+          "preparation_solvent": "Ethanol",
+          "preparation_method": "Boiling dried fruits in ethanol for 3 hours",
+          "preparation_method_source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+          "extraction_solvent": "n-hexane",
+          "compound_class": "Saponins (Oleanolic acid, Momordin Ic)",
+          "compound_class_source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+          "parts_with_amr": "Fruits (Kochiae Fructus)",
+          "parts_with_amr_source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 33591, MRSA)",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "mic_value": "15.62 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "17 mm",
+              "assay_type": "Broth-microdilution, Disc-diffusion",
+              "extraction_solvent": "n-hexane fraction",
+              "preparation_method": "Dried fruits boiled in ethanol (3 h), then partitioned sequentially with n-hexane, EtOAc, n-BuOH and water",
+              "cytotoxicity_cc50": null,
+              "assay_method": "CLSI 2000 (MIC), CLSI 2001 (ZOI)",
+              "reference_control": "Ampicillin (1000 µg/mL), Oxacillin (250 µg/mL)"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 25923, MSSA)",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "mic_value": "15.62 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "16 mm",
+              "assay_type": "Broth-microdilution, Disc-diffusion",
+              "extraction_solvent": "n-hexane fraction",
+              "preparation_method": "Dried fruits boiled in ethanol (3 h), then partitioned sequentially with n-hexane, EtOAc, n-BuOH and water",
+              "cytotoxicity_cc50": null,
+              "assay_method": "CLSI 2000 (MIC), CLSI 2001 (ZOI)",
+              "reference_control": "Ampicillin (7.8 µg/mL), Oxacillin (7.8 µg/mL)"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (DPS-1a, clinical MRSA)",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "mic_value": "15.62 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "17 mm",
+              "assay_type": "Broth-microdilution, Disc-diffusion",
+              "extraction_solvent": "n-hexane fraction",
+              "preparation_method": "Dried fruits boiled in ethanol (3 h), then partitioned sequentially with n-hexane, EtOAc, n-BuOH and water",
+              "cytotoxicity_cc50": null,
+              "assay_method": "CLSI 2000 (MIC), CLSI 2001 (ZOI)",
+              "reference_control": "Ampicillin (31.25 µg/mL), Oxacillin (500 µg/mL)"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (DPS-2, clinical MRSA)",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "mic_value": "7.8 µg/mL",
+              "mbc_value": null,
+              "zoi_value": "18 mm",
+              "assay_type": "Broth-microdilution, Disc-diffusion",
+              "extraction_solvent": "n-hexane fraction",
+              "preparation_method": "Dried fruits boiled in ethanol (3 h), then partitioned sequentially with n-hexane, EtOAc, n-BuOH and water",
+              "cytotoxicity_cc50": null,
+              "assay_method": "CLSI 2000 (MIC), CLSI 2001 (ZOI)",
+              "reference_control": "Ampicillin (1000 µg/mL), Oxacillin (500 µg/mL)"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "n-hexane fraction of Kochia scoparia fruit (HFKb)",
+              "compound2_name": "Oxacillin",
+              "checkerboard_FIC": 0.25,
+              "interaction_class": "synergy",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "efflux_inhibition": false
+            },
+            {
+              "compound1_name": "n-hexane fraction of Kochia scoparia fruit (HFKb)",
+              "compound2_name": "Ampicillin",
+              "checkerboard_FIC": 0.31,
+              "interaction_class": "synergy",
+              "source_url": "https://academicjournals.org/article/article1380722205_Joung%20et%20al.pdf",
+              "efflux_inhibition": false
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T10:13:22.338000Z",
+        "credits_used": 590
+      }
+    },
+    {
+      "plant_name": "Begonia panchtharensis",
+      "extraction_timestamp": "2026-02-22T16:01:34.711299",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Begonia panchtharensis S.Rajbh.",
+          "local_name": "Magar kanchi",
+          "family": "Begoniaceae",
+          "genus": "Begonia",
+          "growth_form": "Perennial herb (rhizomatous geophyte)",
+          "location_found_nepal": "Memeng, Tinubote, Sisire, Prangbung VDC, Panchthar District, Eastern Nepal",
+          "traditional_usage": "The rhizome decoction is taken orally to treat stomach-aches, especially by the Limbu and Rai ethnic groups; it is also used as pig feed.",
+          "traditional_usage_source_url": "https://www.nepjol.info/index.php/JNHM/article/view/14150/11461",
+          "cultural_consensus_icf": 0.85,
+          "preparation_solvent": "Water (for decoction), Methanol/Ethyl acetate (for extract)",
+          "preparation_method": "Rhizome decoction for traditional use; successive extraction for antimicrobial evaluation",
+          "preparation_method_source_url": "https://www.nepjol.info/index.php/JNHM/article/view/14150/11461",
+          "extraction_solvent": "Ethyl acetate",
+          "compound_class": "Flavonoids",
+          "compound_class_source_url": "https://www.researchgate.net/publication/316161715_Traditional_Uses_of_Begonia_Species_Begoniacae_in_Nepal",
+          "parts_with_amr": "Rhizome",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/316161715_Traditional_Uses_of_Begonia_Species_Begoniacae_in_Nepal",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/316161715_Traditional_Uses_of_Begonia_Species_Begoniacae_in_Nepal",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "14 mm",
+              "assay_type": "Cup diffusion method",
+              "extraction_solvent": "Ethyl acetate",
+              "preparation_method": "Successive extraction of 20g dried plant material",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Cup diffusion method",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": []
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-23T10:16:33.926000Z",
+        "credits_used": 227
+      }
+    },
+    {
+      "plant_name": "Aerides multiflora",
+      "extraction_timestamp": "2026-02-25T16:36:49.926166",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aerides multiflora Roxb.",
+          "local_name": "Taaki ko sunakhari (or Sunakhari)",
+          "family": "Orchidaceae",
+          "genus": "Aerides",
+          "growth_form": "Epiphytic orchid",
+          "location_found_nepal": "Sankhuwasabha district (Eastern Nepal), Central and Western Nepal; Altitude: 150 - 2000m",
+          "traditional_usage": "Flower paste applied to fractures; leaf paste/powder for treating wounds and cuts; plant used as a tonic and for joint pains.",
+          "traditional_usage_source_url": "https://www.researchgate.net/publication/375462698_Medicinal_ethnobotany_of_the_Yakkha_community_in_eastern_Nepal",
+          "cultural_consensus_icf": 0.73,
+          "preparation_solvent": "Methanol",
+          "preparation_method": "Maceration of whole plant",
+          "preparation_method_source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+          "extraction_solvent": "Methanol, Ethanol",
+          "compound_class": "Biphenanthrene derivatives (Aerimultins A–C), Phenylpropanoid esters, Bibenzyls (Gigantol), Phenanthrenes (Imbricatin, Coelonin)",
+          "compound_class_source_url": "https://www.researchgate.net/publication/367462287_Aerides_multiflora_Roxb_An_Important_Ornamental_and_Medicinal_Orchid",
+          "parts_with_amr": "Whole plant, Leaves, Roots",
+          "parts_with_amr_source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+              "mic_value": "0.39 mg/mL",
+              "mbc_value": null,
+              "zoi_value": "14.33 ± 0.19 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration of whole plant",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and microdilution",
+              "reference_control": "Not specified"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+              "mic_value": "0.195 mg/mL",
+              "mbc_value": null,
+              "zoi_value": "13.00 ± 0.19 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration of whole plant",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion and microdilution",
+              "reference_control": "Not specified"
+            },
+            {
+              "pathogen_name": "Bacillus cereus",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "13.44 ± 0.11 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration of whole plant",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Disk diffusion",
+              "reference_control": "Not specified"
+            },
+            {
+              "pathogen_name": "Pseudomonas sp.",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706",
+              "mic_value": "0.195 mg/mL",
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Maceration of whole plant",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Microdilution",
+              "reference_control": "Not specified"
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/270126467_Antibacterial_and_Antifungal_Activity_of_Medicinal_Orchids_Growing_in_Nepal",
+              "mic_value": null,
+              "mbc_value": "3.12 mg/mL",
+              "zoi_value": "10 mm",
+              "assay_type": "Antimicrobial",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Dried plant powder extraction",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Agar well diffusion",
+              "reference_control": "Not specified"
+            }
+          ],
+          "synergy_data": [
+            {
+              "compound1_name": "Gigantol",
+              "compound2_name": "Imbricatin",
+              "checkerboard_FIC": 0.5,
+              "interaction_class": "synergy",
+              "source_url": "https://www.science.gov/topicpages/p/preliminary+phytochemical+analysis.html",
+              "efflux_inhibition": true
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-26T10:51:48.648000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aerides odorata",
+      "extraction_timestamp": "2026-02-25T16:39:37.848934",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aerides odorata Lour.",
+          "local_name": "Sunakhari / Sungava / Parajivi",
+          "family": "Orchidaceae",
+          "genus": "Aerides",
+          "growth_form": "Epiphytic orchid",
+          "location_found_nepal": "Lowland forests of Nepal, including Terai and Siwalik ranges (Rolpa, Makwanpur, Jajarkot, Annapurna Conservation Area)",
+          "traditional_usage": "Paste of leaves is applied topically to treat cuts and wounds. It is also traditionally used in Nepal to treat tuberculosis and gastrointestinal disorders.",
+          "traditional_usage_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3846542/",
+          "cultural_consensus_icf": 0.81,
+          "preparation_solvent": "Ethanol / Methanol",
+          "preparation_method": "Fresh leaves are cut into small pieces and soaked in solvent at a 1:2 w/v ratio for 24 hours, followed by crushing and filtration.",
+          "preparation_method_source_url": "https://www.researchgate.net/publication/347973688_Evaluation_of_pharmaceutical_properties_on_microbial_activities_of_some_important_medicinal_orchids_of_Bangladesh",
+          "extraction_solvent": "Ethanol, Methanol, Chloroform, Petroleum ether",
+          "compound_class": "Phenolic compounds, Flavonoids, Bibenzyls (Moscatilin)",
+          "compound_class_source_url": "https://www.researchgate.net/publication/297312819_Orchids_A_review_of_uses_in_traditional_medicine_its_phytochemistry_and_pharmacology",
+          "parts_with_amr": "Leaves",
+          "parts_with_amr_source_url": "https://www.researchgate.net/publication/347973688_Evaluation_of_pharmaceutical_properties_on_microbial_activities_of_some_important_medicinal_orchids_of_Bangladesh",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Salmonella typhi (AE 14612)",
+              "source_url": "https://www.researchgate.net/publication/347973688_Evaluation_of_pharmaceutical_properties_on_microbial_activities_of_some_important_medicinal_orchids_of_Bangladesh",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "37.5 mm",
+              "assay_type": "Disc diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "1:2 w/v soak of fresh crushed leaves for 24 hours",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Bauer et al. Paper-disc diffusion, 6 mm discs, 25 µL extract",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus (ATCC 6538)",
+              "source_url": "https://www.researchgate.net/publication/347973688_Evaluation_of_pharmaceutical_properties_on_microbial_activities_of_some_important_medicinal_orchids_of_Bangladesh",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": "32 mm",
+              "assay_type": "Disc diffusion",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "1:2 w/v soak of fresh crushed leaves for 24 hours",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Bauer et al. Paper-disc diffusion, 6 mm discs, 25 µL extract",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "source_url": "https://www.researchgate.net/publication/270126467_Antibacterial_and_Antifungal_Activity_of_Medicinal_Orchids_Growing_in_Nepal",
+              "mic_value": "2.5 mg/mL",
+              "mbc_value": "5.0 mg/mL",
+              "zoi_value": "9.67 mm",
+              "assay_type": "Well diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Solvent extraction of dried plant material",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Well diffusion method at 5 mg/mL concentration",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "source_url": "https://www.researchgate.net/publication/270126467_Antibacterial_and_Antifungal_Activity_of_Medicinal_Orchids_Growing_in_Nepal",
+              "mic_value": "2.5 mg/mL",
+              "mbc_value": "5.0 mg/mL",
+              "zoi_value": "11.00 mm",
+              "assay_type": "Well diffusion",
+              "extraction_solvent": "Ethanol",
+              "preparation_method": "Solvent extraction of dried plant material",
+              "cytotoxicity_cc50": null,
+              "assay_method": "Well diffusion method at 5 mg/mL concentration",
+              "reference_control": null
+            },
+            {
+              "pathogen_name": "General Pathogens",
+              "source_url": "https://www.researchgate.net/publication/342637581_Screening_of_the_Dichloromethane_Methanolic_Extract_of_Centella_asiatica_for_Antibacterial_Activities_against_Salmonella_typhi_Escherichia_coli_Shigella_sonnei_Bacillus_subtilis_and_Staphylococcus_aur",
+              "mic_value": null,
+              "mbc_value": null,
+              "zoi_value": null,
+              "assay_type": "Cytotoxicity",
+              "extraction_solvent": "Methanol",
+              "preparation_method": null,
+              "cytotoxicity_cc50": "22.5 µg/mL",
+              "assay_method": "Cytotoxicity assay",
+              "reference_control": null
+            }
+          ],
+          "synergy_data": []
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-26T10:54:35.345000Z",
+        "credits_used": 0
+      }
+    }
+  ],
+  "processed_count": 26,
+  "last_updated": "2026-02-25T16:39:37.855138"
+}

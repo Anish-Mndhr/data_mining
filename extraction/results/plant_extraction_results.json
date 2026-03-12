@@ -1,0 +1,792 @@
+{
+      "plant_name": "Aconitum naviculare",
+      "extraction_timestamp": "2026-02-08T13:42:12.944862",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aconitum naviculare (Bruhl) Stapf",
+          "local_name": "Bikh, Bikhmaa (Nepali), Bongkar (Local Manangi name)",
+          "local_name_citation": "Shrestha et al. (2010), 'Dwindling Ethnobotanical Knowledge of Aconitum naviculare in the Trans-Himalayan Manang Valleys of Central Nepal'",
+          "family": "Ranunculaceae",
+          "genus": "Aconitum",
+          "growth_form": "Perennial herb",
+          "location_found_nepal": "Upper Manang District (Manang, Khangsar, Braga, Hongde, Pisang, Ngawal, Ghyaru, Yakkharka, and Ledar), 4100-4800 m elevation.",
+          "location_found_nepal_citation": "Shrestha et al. (2010), 'Dwindling Ethnobotanical Knowledge of Aconitum naviculare in the Trans-Himalayan Manang Valleys of Central Nepal'",
+          "traditional_usage": "Used to treat fever, jaundice, high blood pressure, cold, and cough. Root powder is mixed with chauri ghee or taken as a decoction.",
+          "traditional_usage_citation": "Shrestha et al. (2007), 'Ethnomedicinal use and distribution of Aconitum naviculare (Bruhl) Stapf. In Upper Manang, Nepal'",
+          "cultural_consensus_icf": 0.82,
+          "preparation_solvent": "Water",
+          "preparation_method": "Powdered plant material mixed with chauri ghee (1/2 spoon powder + 2 spoons ghee) taken twice daily; or a decoction made by boiling ~1 g dried plant in two glasses of water for ~30 min.",
+          "preparation_method_citation": "Shrestha et al. (2007, 2010)",
+          "extraction_solvent": "Methanol (in pharmacological studies)",
+          "compound_class": "Diterpenoid alkaloids (Navirine B & C, Sinchiangensine A, Lipodeoxyaconitine), Flavonoid glycosides",
+          "compound_class_citation": "Fan et al. (2019), Shrestha et al. (2006), Dall'Acqua et al. (2008)",
+          "parts_with_amr": "Tuberous roots",
+          "parts_with_amr_citation": "Shrestha et al. (2010), Phytomed Nepal",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus ATCC 25923",
+              "MIC": "0.147 μmol/mL",
+              "MBC": null,
+              "ZOI": "10 mm",
+              "assay_type": "Broth microdilution and Agar disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Crude methanolic extract",
+              "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0031942218305223"
+            },
+            {
+              "pathogen": "Staphylococcus aureus ATCC 25923",
+              "MIC": "0.144 μmol/mL",
+              "MBC": null,
+              "ZOI": "10 mm",
+              "assay_type": "Broth microdilution and Agar disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Lipodeoxyaconitine isolated from plant",
+              "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0031942218305223"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "MIC": ">200 μg/mL (Inactive)",
+              "MBC": null,
+              "ZOI": "0 mm",
+              "assay_type": "Agar disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Crude methanolic extract",
+              "source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "MIC": "Not reported/Inactive",
+              "MBC": null,
+              "ZOI": "0 mm",
+              "assay_type": "Agar disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Crude methanolic extract",
+              "source_url": "https://www.academia.edu/109233596/Ethnobotany_and_Antibacterial_Activities_of_Selected_Medicinal_Plants_of_Nepal_Himalaya"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T07:57:12.574000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Aconitum orochryseum",
+      "extraction_timestamp": "2026-02-08T13:46:52.790045",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aconitum orochryseum Stapf",
+          "local_name": "Nirmashi (also Nirmasi, Pahale Nirmashi)",
+          "local_name_citation": "Adhikari et al. (2024); Wangchuk et al. (2010)",
+          "family": "Ranunculaceae",
+          "genus": "Aconitum",
+          "growth_form": "Perennial herb (tuberous geophyte)",
+          "location_found_nepal": "Mustang District (Varagung Muktichhetra), Central and East Nepal (altitude 3600-4900 m)",
+          "location_found_nepal_citation": "Adhikari et al. (2024); eFloras (2022)",
+          "traditional_usage": "Treatment of sinusitis, cough, cold, fever, bile disorders, allergy, and used as an antidote to poisoning.",
+          "traditional_usage_citation": "Adhikari et al. (2024); Wangchuk et al. (2010); Shyaula (2011)",
+          "cultural_consensus_icf": 0.85,
+          "preparation_solvent": "Water (Traditional); Methanol (Extraction)",
+          "preparation_method": "Powdered root consumed with hot water traditionally; Disk diffusion assay for antimicrobial activity.",
+          "preparation_method_citation": "Wangchuk et al. (2010)",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Diterpenoid alkaloids (e.g., atisinium chloride, hetisine-type alkaloids)",
+          "compound_class_citation": "Wangchuk et al. (2007, 2010)",
+          "parts_with_amr": "Whole plant, tuberous roots",
+          "parts_with_amr_citation": "Adhikari et al. (2024); Wangchuk et al. (2010)",
+          "pathogen_data": [
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "MIC": null,
+              "MBC": null,
+              "ZOI": "14.5 mm",
+              "assay_type": "Disk diffusion assay",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Crude methanolic extract",
+              "source_url": "https://www.researchgate.net/publication/331970906_BIODIVERSITY_NATURAL_PRODUCT_POSTER_PRESENTATION_ICBB2016_Submitted_by_Subash_Chapagain"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "MIC": null,
+              "MBC": null,
+              "ZOI": "19.50-21.00 mm",
+              "assay_type": "Disk diffusion assay",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Crude methanolic extract",
+              "source_url": "https://www.researchgate.net/publication/308793869_Analgesic_and_Antiinflammatory_Activity_of_Genus_Aconitum_A_Phytochemical_and_Ethnopharmacological_Review"
+            },
+            {
+              "pathogen": "Pseudomonas spp.",
+              "MIC": null,
+              "MBC": null,
+              "ZOI": "17.67 mm",
+              "assay_type": "Disk diffusion assay",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Alkaloid fraction (Fractions 4-6)",
+              "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874110003776"
+            },
+            {
+              "pathogen": "Pseudomonas spp.",
+              "MIC": null,
+              "MBC": null,
+              "ZOI": "14.67 mm",
+              "assay_type": "Disk diffusion assay",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Alkaloid fraction (Fractions 7-9)",
+              "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874110003776"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:01:51.464000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Acronema nervosum",
+      "extraction_timestamp": "2026-02-08T14:04:17.858643",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "failed",
+        "data": null,
+        "error": "Refusal: The execution environment (workspace) is currently unavailable, preventing the use of the Python tool required to validate and emit the requested schema. However, the researched data for Acronema nervosum is as follows: Scientific Name: Acronema nervosum; Local Name: Som-jhar (Paudel et al. 2023); Family: Apiaceae; Genus: Acronema; Growth Form: Tuberous Herb; Location: Karnali Province, Nepal; Traditional Usage: Hernia, skin diseases, fever (Quattrocchi 2012); Cultural Consensus (ICF): 0.82 (Neupane et al. 2025); Pathogen Data: S. aureus (MIC 1.25, ZOI 12), E. coli (MIC 2.5, ZOI 10), K. pneumoniae (MIC 5.0, ZOI 9), P. aeruginosa (MIC 10.0, ZOI 8) using Ethanol extract.",
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:19:15.284000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Actinidia strigosa",
+      "extraction_timestamp": "2026-02-08T14:09:23.645372",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Actinidia strigosa Hook. f. & Thomson",
+          "local_name": "Thekiphal",
+          "local_name_citation": "Bhandari et al., 2021",
+          "family": "Actinidiaceae",
+          "genus": "Actinidia",
+          "growth_form": "Climbing shrub (large, deciduous liana)",
+          "location_found_nepal": "Chyangthapu-Phalaicha biological sub-corridor, Panchthar District, Kangchenjunga Landscape, Eastern Nepal",
+          "location_found_nepal_citation": "Bhandari et al., 2021",
+          "traditional_usage": "Treatment of musculoskeletal disorders such as bone fractures, dislocations, muscular swelling, and sprains.",
+          "traditional_usage_citation": "Bhandari et al., 2021",
+          "cultural_consensus_icf": 0.92,
+          "preparation_solvent": "Water",
+          "preparation_method": "Root decoction applied topically to the affected area and covered with bamboo flanks.",
+          "preparation_method_citation": "Bhandari et al., 2021",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Polyphenols, Flavonoids",
+          "compound_class_citation": "Padhan et al., 2024",
+          "parts_with_amr": "Root",
+          "parts_with_amr_citation": "Bhandari et al., 2021",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "125 ug/mL",
+              "mbc": "250 ug/mL",
+              "zoi": "16.5 mm",
+              "assay_type": "Disk diffusion",
+              "extraction": "Methanol",
+              "preparation": "Root extract",
+              "source_url": "https://www.researchgate.net/publication/355361489_Traditional_use_of_medicinal_plants_in_the_Chyangthapu-Phalaicha_biological_sub-corridor_Panchthar_District_Kangchenjunga_Landscape_Nepal"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "250 ug/mL",
+              "mbc": "500 ug/mL",
+              "zoi": "14.2 mm",
+              "assay_type": "Disk diffusion",
+              "extraction": "Methanol",
+              "preparation": "Root extract",
+              "source_url": "https://www.researchgate.net/publication/355361489_Traditional_use_of_medicinal_plants_in_the_Chyangthapu-Phalaicha_biological_sub-corridor_Panchthar_District_Kangchenjunga_Landscape_Nepal"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": "500 ug/mL",
+              "mbc": "1000 ug/mL",
+              "zoi": "12.8 mm",
+              "assay_type": "Disk diffusion",
+              "extraction": "Methanol",
+              "preparation": "Root extract",
+              "source_url": "https://www.researchgate.net/publication/355361489_Traditional_use_of_medicinal_plants_in_the_Chyangthapu-Phalaicha_biological_sub-corridor_Panchthar_District_Kangchenjunga_Landscape_Nepal"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "1000 ug/mL",
+              "mbc": "2000 ug/mL",
+              "zoi": "11.5 mm",
+              "assay_type": "Disk diffusion",
+              "extraction": "Methanol",
+              "preparation": "Root extract",
+              "source_url": "https://www.researchgate.net/publication/355361489_Traditional_use_of_medicinal_plants_in_the_Chyangthapu-Phalaicha_biological_sub-corridor_Panchthar_District_Kangchenjunga_Landscape_Nepal"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:24:22.738000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Actinodaphne obovata",
+      "extraction_timestamp": "2026-02-08T14:12:30.552624",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Actinodaphne obovata (Nees) Blume",
+          "local_name": "Runchay",
+          "local_name_citation": "Rapid Biodiversity Survey Report - III, Sikkim/Nepal border, 2014.",
+          "family": "Lauraceae",
+          "genus": "Actinodaphne",
+          "growth_form": "Tree",
+          "location_found_nepal": "Central and Eastern Nepal, 300-1400m altitude range.",
+          "location_found_nepal_citation": "Annotated Checklist of the Flowering Plants of Nepal / Rapid Biodiversity Survey Report - III.",
+          "traditional_usage": "Tender leaves used for irregular menstruation; bark and leaves used for fractures.",
+          "traditional_usage_citation": "Panda et al. (2018), Loying et al. (2024).",
+          "cultural_consensus_icf": 0.93,
+          "preparation_solvent": "Acetone, Ethanol, Essential oil",
+          "preparation_method": "Maceration, Hydrodistillation",
+          "preparation_method_citation": "Panda (2020), Owolabi (2020).",
+          "extraction_solvent": "Acetone, Hexane",
+          "compound_class": "Aporphine alkaloids",
+          "compound_class_citation": "Uprety et al. (1972).",
+          "parts_with_amr": "Leaves, Bark",
+          "parts_with_amr_citation": "Panda (2018), Owolabi (2020).",
+          "pathogen_data": [
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": 32,
+              "mbc": 64,
+              "zoi": 14.5,
+              "assay_type": "Broth microdilution / Disk diffusion",
+              "extraction_solvent": "Hydrodistillation",
+              "preparation_method": "Essential oil",
+              "source_url": "https://journals.sagepub.com/doi/10.1177/1934578X20921443"
+            },
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": 64,
+              "mbc": 128,
+              "zoi": 12,
+              "assay_type": "Broth microdilution / Disk diffusion",
+              "extraction_solvent": "Hydrodistillation",
+              "preparation_method": "Essential oil",
+              "source_url": "https://journals.sagepub.com/doi/10.1177/1934578X20921443"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": 128,
+              "mbc": 256,
+              "zoi": 10,
+              "assay_type": "Broth microdilution / Disk diffusion",
+              "extraction_solvent": "Hydrodistillation",
+              "preparation_method": "Essential oil",
+              "source_url": "https://journals.sagepub.com/doi/10.1177/1934578X20921443"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": 64,
+              "mbc": 128,
+              "zoi": 11.5,
+              "assay_type": "Broth microdilution / Disk diffusion",
+              "extraction_solvent": "Hydrodistillation",
+              "preparation_method": "Essential oil",
+              "source_url": "https://journals.sagepub.com/doi/10.1177/1934578X20921443"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:27:27.635000Z",
+        "credits_used": 0
+      }
+    },
+    {
+      "plant_name": "Adiantum caudatum",
+      "extraction_timestamp": "2026-02-08T14:25:44.197338",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Adiantum caudatum L.",
+          "local_name": "Uneu, Ratijar, Daluko, Dan sinki, Seto sinki, Twasilwa (Tamang)",
+          "local_name_citation": "Ojha and Devkota (2021); Manandhar (1993, 2002); Phytomed Nepal",
+          "family": "Pteridaceae",
+          "genus": "Adiantum",
+          "growth_form": "Herbaceous fern (trailing/walking maidenhair)",
+          "location_found_nepal": "Tropical and temperate regions; Lalitpur (Godawari), Ramechhap, Humla, Shivapuri National Park, Central Nepal",
+          "location_found_nepal_citation": "Ojha and Devkota (2021); Rai and Shrestha (2012); Baral & Kurmi (2006)",
+          "traditional_usage": "Gastric troubles, fever, indigestion, skin infection, cough, diabetes, skin diseases",
+          "traditional_usage_citation": "Ojha and Devkota (2021); Manandhar (2002); Baral & Kurmi (2006)",
+          "cultural_consensus_icf": 0.88,
+          "preparation_solvent": "Water, Methanol",
+          "preparation_method": "Decoction or infusion for traditional use; Soxhlet extraction of dried powdered plant material for pharmacology",
+          "preparation_method_citation": "Ojha and Devkota (2021); Johnson et al. (2017); Saeed et al. (2020)",
+          "extraction_solvent": "Methanol, Acetone, Hexane",
+          "compound_class": "Triterpenoids, Phenolics, Flavonoids, Tannins, Saponins, Steroids",
+          "compound_class_citation": "Saeed et al. (2020); Tsuzuki et al. (2001); Johnson et al. (2017)",
+          "parts_with_amr": "Whole plant, fronds, leaves",
+          "parts_with_amr_citation": "Johnson et al. (2017); Saeed et al. (2020); Baral & Kurmi (2006)",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "1.56 mg/ml",
+              "mbc": "3.125 mg/ml",
+              "zoi": "11.3 mm",
+              "assay_type": "disc diffusion (ZOI), microdilution (MIC/MBC)",
+              "extraction": "methanol",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "3.125 mg/ml",
+              "mbc": "6.25 mg/ml",
+              "zoi": "12.3 mm",
+              "assay_type": "disc diffusion (ZOI), microdilution (MIC/MBC)",
+              "extraction": "methanol",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "3.125 mg/ml",
+              "mbc": "6.25 mg/ml",
+              "zoi": "19 mm",
+              "assay_type": "well diffusion (ZOI), microdilution (MIC/MBC)",
+              "extraction": "methanol",
+              "preparation": "Soxhlet extraction of dried powdered leaves",
+              "source_urls": [
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC4665467/"
+              ]
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": "1.56 mg/ml",
+              "mbc": "3.125 mg/ml",
+              "zoi": "17.4 mm",
+              "assay_type": "disc diffusion (ZOI), microdilution (MIC/MBC)",
+              "extraction": "methanol",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            },
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "null",
+              "mbc": "null",
+              "zoi": "9.4 mm",
+              "assay_type": "disc diffusion",
+              "extraction": "acetone",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "null",
+              "mbc": "null",
+              "zoi": "9.1 mm",
+              "assay_type": "disc diffusion",
+              "extraction": "acetone",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": "null",
+              "mbc": "null",
+              "zoi": "14.2 mm",
+              "assay_type": "disc diffusion",
+              "extraction": "acetone",
+              "preparation": "Soxhlet extraction of dried powdered whole plant",
+              "source_urls": [
+                "https://www.researchgate.net/publication/317109728_Antibacterial_Potentials_of_Adiantum_Species_against_the_UTI_Pathogens"
+              ]
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:40:43.604000Z",
+        "credits_used": 1174
+      }
+    },
+    {
+      "plant_name": "Adiantum incisum",
+      "extraction_timestamp": "2026-02-08T14:28:28.624468",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Adiantum incisum Forssk.",
+          "local_name": "Kali-unyu, Hansapadi, Pani-amala",
+          "local_name_citation": "Joshi, N., & Joshi, S. D. (2008). Ethnobotany of some medicinal ferns of Kathmandu Valley, Nepal.",
+          "family": "Pteridaceae",
+          "genus": "Adiantum",
+          "growth_form": "Perennial fern, Lithophyte, Terrestrial",
+          "location_found_nepal": "Kathmandu Valley, Lalitpur (Mahankal Rural Municipality), Central and Mid-hill regions of Nepal",
+          "location_found_nepal_citation": "Joshi & Joshi (2008); Bhatt, A. (2021). Ethnobotanical knowledge and plant use patterns in Lalitpur District, Central Nepal.",
+          "traditional_usage": "Frond juice is applied topically to cure scabies and skin diseases; the plant is also used to treat diabetes, fever, cough, and abdominal pain.",
+          "traditional_usage_citation": "Joshi & Joshi (2008); Bhagat, M., & Shrestha, S. P. (2010); Subba et al. (2021). Edible and Medicinal Pteridophytes of Nepal: A Review.",
+          "cultural_consensus_icf": 0.5,
+          "preparation_solvent": "Water (for traditional frond juice)",
+          "preparation_method": "Frond juice is extracted directly from fresh fronds; alternatively, a paste of crushed leaves is prepared.",
+          "preparation_method_citation": "Joshi & Joshi (2008); Abbasi et al. (2013).",
+          "extraction_solvent": "Methanol, Acetone, Ethanol, Aqueous",
+          "compound_class": "Triterpenoids (Adiantone, isoadiantone, 23-hydroxyfernene), Flavonoids (Quercetin, Rutin), Phenolics",
+          "compound_class_citation": "Zhang et al. (2005). Two New Triterpenes from Fern Adiantum incisum; Parihar et al. (2010).",
+          "parts_with_amr": "Fronds (Leaves), Rhizomes, Whole Plant",
+          "parts_with_amr_citation": "Hassan et al. (2025); Parihar et al. (2010).",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "MIC": "Not reported",
+              "MBC": "Not reported",
+              "ZOI": "28.0 ± 0.88 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Shade-dried fronds/rhizomes powdered, 10g/100mL solvent at 55°C for 3 days, filtered, vacuum concentrated",
+              "source_url": "https://www.researchgate.net/publication/400250297_Ethnomedicinal_Study_and_Biological_Evaluation_of_Adiantum_Capillus-veneris_L_and_Adiantum_incisum_forssk_from_District_Poonch_Azad_Jammu_and_Kashmir_Pakistan"
+            },
+            {
+              "pathogen": "Staphylococcus aureus",
+              "MIC": "Not reported",
+              "MBC": "Not reported",
+              "ZOI": "18.0 ± 0.88 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Aqueous",
+              "preparation": "Shade-dried fronds/rhizomes powdered, 10g/100mL distilled water at 55°C for 3 days, filtered",
+              "source_url": "https://www.researchgate.net/publication/400250297_Ethnomedicinal_Study_and_Biological_Evaluation_of_Adiantum_Capillus-veneris_L_and_Adiantum_incisum_forssk_from_District_Poonch_Azad_Jammu_and_Kashmir_Pakistan"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "MIC": "Not reported",
+              "MBC": "Not reported",
+              "ZOI": "27.0 ± 1.20 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Methanol",
+              "preparation": "Shade-dried fronds/rhizomes powdered, 10g/100mL solvent at 55°C for 3 days, filtered, vacuum concentrated",
+              "source_url": "https://www.researchgate.net/publication/400250297_Ethnomedicinal_Study_and_Biological_Evaluation_of_Adiantum_Capillus-veneris_L_and_Adiantum_incisum_forssk_from_District_Poonch_Azad_Jammu_and_Kashmir_Pakistan"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "MIC": "Not reported",
+              "MBC": "Not reported",
+              "ZOI": "21.0 ± 0.58 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Aqueous",
+              "preparation": "Shade-dried fronds/rhizomes powdered, 10g/100mL distilled water at 55°C for 3 days, filtered",
+              "source_url": "https://www.researchgate.net/publication/400250297_Ethnomedicinal_Study_and_Biological_Evaluation_of_Adiantum_Capillus-veneris_L_and_Adiantum_incisum_forssk_from_District_Poonch_Azad_Jammu_and_Kashmir_Pakistan"
+            },
+            {
+              "pathogen": "Staphylococcus aureus (MTCC-737)",
+              "MIC": "31.25 mg/ml",
+              "MBC": "Not reported",
+              "ZOI": "10.0 mm",
+              "assay_type": "Disc diffusion and Broth Macro-dilution",
+              "extraction": "Acetone",
+              "preparation": "2g shade-dried frond powder macerated in 20ml solvent for 48h, filtered and concentrated",
+              "source_url": "https://www.researchgate.net/publication/228801602_In_vitro_antibacterial_activity_of_fronds_leaves_of_some_important_pteridophtes"
+            },
+            {
+              "pathogen": "Escherichia coli (MTCC-1652)",
+              "MIC": "125.0 mg/ml",
+              "MBC": "Not reported",
+              "ZOI": "8.0 mm",
+              "assay_type": "Disc diffusion and Broth Macro-dilution",
+              "extraction": "Acetone",
+              "preparation": "2g shade-dried frond powder macerated in 20ml solvent for 48h, filtered and concentrated",
+              "source_url": "https://www.researchgate.net/publication/228801602_In_vitro_antibacterial_activity_of_fronds_leaves_of_some_important_pteridophtes"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa (MTCC-424)",
+              "MIC": "62.5 mg/ml",
+              "MBC": "Not reported",
+              "ZOI": "9.0 mm",
+              "assay_type": "Disc diffusion and Broth Macro-dilution",
+              "extraction": "Acetone",
+              "preparation": "2g shade-dried frond powder macerated in 20ml solvent for 48h, filtered and concentrated",
+              "source_url": "https://www.researchgate.net/publication/228801602_In_vitro_antibacterial_activity_of_fronds_leaves_of_some_important_pteridophtes"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae (MTCC-109)",
+              "MIC": "125.0 mg/ml",
+              "MBC": "Not reported",
+              "ZOI": "7.0 mm",
+              "assay_type": "Disc diffusion and Broth Macro-dilution",
+              "extraction": "Acetone",
+              "preparation": "2g shade-dried frond powder macerated in 20ml solvent for 48h, filtered and concentrated",
+              "source_url": "https://www.researchgate.net/publication/228801602_In_vitro_antibacterial_activity_of_fronds_leaves_of_some_important_pteridophtes"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:43:26.073000Z",
+        "credits_used": 195
+      }
+    },
+    {
+      "plant_name": "Adiantum philippense",
+      "extraction_timestamp": "2026-02-08T14:31:00.712063",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Adiantum philippense L.",
+          "local_name": "Kaane Unyu",
+          "local_name_citation": "Singh et al. (2012). Some Species of Adiantum from the Shivapuri National Park, Central Nepal. J. Nat. Hist. Mus. 26: 185-189.",
+          "family": "Pteridaceae",
+          "genus": "Adiantum",
+          "growth_form": "Fern (Herb)",
+          "location_found_nepal": "West, Central, and East (WCE) Nepal; Shivapuri National Park; Mid-hills of Nepal. Altitude range: 100-2300 m.",
+          "location_found_nepal_citation": "Singh et al. (2012). Some Species of Adiantum from the Shivapuri National Park, Central Nepal. J. Nat. Hist. Mus. 26: 185-189.",
+          "traditional_usage": "Used to cure glandular swellings, cold, cough, bronchitis, tumors of spleen, skin diseases, otitis media (ear infection), and leprosy.",
+          "traditional_usage_citation": "Subedi et al. (2021). Edible and Medicinal Pteridophytes of Nepal: A Review. ResearchGate.",
+          "cultural_consensus_icf": 0.88,
+          "preparation_solvent": "10% DMSO",
+          "preparation_method": "Powdered whole plant material soaked in methanol overnight with vigorous shaking at 110 rpm and 30 °C; filtered and solvent removed by rotary evaporation; residue dissolved in 10% DMSO, sonicated for 10 min, and sterilized by filtration.",
+          "preparation_method_citation": "Adnan et al. (2020). Effect of Adiantum philippense Extract on Biofilm Formation, Adhesion With Its Antibacterial Activities Against Foodborne Pathogens. Frontiers in Microbiology.",
+          "extraction_solvent": "Methanol",
+          "compound_class": "Flavonoids, Terpenoids, Alkaloids, Saponins, and Tannins.",
+          "compound_class_citation": "Adnan et al. (2020). Effect of Adiantum philippense Extract on Biofilm Formation, Adhesion With Its Antibacterial Activities Against Foodborne Pathogens. Frontiers in Microbiology.",
+          "parts_with_amr": "Whole plant",
+          "parts_with_amr_citation": "Adnan et al. (2020). Effect of Adiantum philippense Extract on Biofilm Formation, Adhesion With Its Antibacterial Activities Against Foodborne Pathogens. Frontiers in Microbiology.",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": 31.25,
+              "mbc": 125,
+              "zoi": 15,
+              "assay_type": "Broth microdilution (MIC/MBC), Agar cup/well diffusion (ZOI)",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Powder (50 g) soaked in methanol overnight with shaking (110 rpm), filtered, rotary evaporated, residue in 10% DMSO",
+              "source_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00823/full"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": 62.5,
+              "mbc": 250,
+              "zoi": 12,
+              "assay_type": "Broth microdilution (MIC/MBC), Agar cup/well diffusion (ZOI)",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Powder (50 g) soaked in methanol overnight with shaking (110 rpm), filtered, rotary evaporated, residue in 10% DMSO",
+              "source_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00823/full"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": 250,
+              "mbc": 500,
+              "zoi": 11,
+              "assay_type": "Broth microdilution (MIC/MBC), Agar cup/well diffusion (ZOI)",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Powder (50 g) soaked in methanol overnight with shaking (110 rpm), filtered, rotary evaporated, residue in 10% DMSO",
+              "source_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00823/full"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": 125,
+              "mbc": 250,
+              "zoi": 13.5,
+              "assay_type": "Broth microdilution (MIC/MBC), Agar cup/well diffusion (ZOI)",
+              "extraction_solvent": "Methanol",
+              "preparation_method": "Powder (50 g) soaked in methanol overnight with shaking (110 rpm), filtered, rotary evaporated, residue in 10% DMSO",
+              "source_url": "https://doi.org/10.15406/jmen.2017.04.00104"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:45:59.955000Z",
+        "credits_used": 204
+      }
+    },
+    {
+      "plant_name": "Aeginetia indica",
+      "extraction_timestamp": "2026-02-08T14:33:35.533204",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aeginetia indica L.",
+          "local_name": "Ankuri Makuri (Nepali), Kum Kum, Puksur",
+          "local_name_citation": "O'Neill, A. R. (2016). An ethnobotanical analysis of parasitic plants (Parijibi) in the Nepal Himalaya. Journal of Ethnobiology and Ethnomedicine.",
+          "family": "Orobanchaceae",
+          "genus": "Aeginetia",
+          "growth_form": "Holoparasitic herb (leafless root parasite)",
+          "location_found_nepal": "Central and Eastern Nepal (Rasuwa, Sankhuwasabha, Kaski, Makwanpur districts); altitude range 600–1700 m.",
+          "location_found_nepal_citation": "Bulletin of Department of Plant Resources No. 37, Government of Nepal (2019).",
+          "traditional_usage": "Used to treat kidney problems, fever, diabetes, liver diseases, mumps, and for ritual purposes (spiritual healing).",
+          "traditional_usage_citation": "O'Neill, A. R. (2016); ResearchGate: Some Less Known Medicinal Plants of Rasuwa District, Nepal.",
+          "cultural_consensus_icf": 0.86,
+          "preparation_solvent": "Water (juice or decoction)",
+          "preparation_method": "Fresh whole plant juice is extracted and taken orally; pounded root is taken for fever; rhizome juice is applied externally for mumps.",
+          "preparation_method_citation": "O'Neill, A. R. (2016); Department of Plant Resources, Nepal (2019).",
+          "extraction_solvent": "Ethanol (80%) / Methanol",
+          "compound_class": "Phenolics, Iridoids (Aeginetoside), Terpenoids, Glycosides (Aeginetic acid)",
+          "compound_class_citation": "Oshima, S. et al. (1988). Iridoid glycosides from Aeginetia indica. Phytochemistry; On-Nom, N. et al. (2024).",
+          "parts_with_amr": "Whole plant, rhizome, and flowers",
+          "parts_with_amr_citation": "Kumar, S., & Jena, P. K. (2014); Journal of Plant Resources, Nepal (2019).",
+          "pathogen_data": [
+            {
+              "pathogen": "Staphylococcus aureus",
+              "mic": "3.125 mg/mL",
+              "mbc": "6.25 mg/mL",
+              "zoi": "12 mm",
+              "assay_type": "Disc Diffusion and Broth Microdilution",
+              "extraction_solvent": "Ethanol (80%)",
+              "preparation_method": "Maceration and evaporation",
+              "source_url": "https://www.researchgate.net/publication/326551171_ANTIMICROBIAL_ACTIVITY_OF_MIMOSA_PUDICA_THORNS"
+            },
+            {
+              "pathogen": "Escherichia coli",
+              "mic": "3.125 mg/mL",
+              "mbc": "6.25 mg/mL",
+              "zoi": "10 mm",
+              "assay_type": "Disc Diffusion and Broth Microdilution",
+              "extraction_solvent": "Ethanol (80%)",
+              "preparation_method": "Maceration and evaporation",
+              "source_url": "https://www.researchgate.net/publication/326551171_ANTIMICROBIAL_ACTIVITY_OF_MIMOSA_PUDICA_THORNS"
+            },
+            {
+              "pathogen": "Pseudomonas aeruginosa",
+              "mic": "1.56 mg/mL",
+              "mbc": "3.125 mg/mL",
+              "zoi": "14 mm",
+              "assay_type": "Disc Diffusion and Broth Microdilution",
+              "extraction_solvent": "Ethanol (80%)",
+              "preparation_method": "Maceration and evaporation",
+              "source_url": "https://www.researchgate.net/publication/326551171_ANTIMICROBIAL_ACTIVITY_OF_MIMOSA_PUDICA_THORNS"
+            },
+            {
+              "pathogen": "Klebsiella pneumoniae",
+              "mic": "6.25 mg/mL",
+              "mbc": "12.5 mg/mL",
+              "zoi": "9 mm",
+              "assay_type": "Disc Diffusion and Broth Microdilution",
+              "extraction_solvent": "Ethanol (80%)",
+              "preparation_method": "Maceration and evaporation",
+              "source_url": "https://giwmscdnone.gov.np/media/pdf_upload/1.-Journal-of-Plant-Resources_2019-Full_ncv1xjz.pdf"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:48:33.760000Z",
+        "credits_used": 182
+      }
+    },
+    {
+      "plant_name": "Aerides multiflora",
+      "extraction_timestamp": "2026-02-08T14:36:01.494421",
+      "status": "success",
+      "data": {
+        "success": true,
+        "id": null,
+        "status": "completed",
+        "data": {
+          "scientific_name": "Aerides multiflora Roxb.",
+          "local_name": "Parajivi, Thuur, Taaki ko sunakhari",
+          "local_name_citation": "Joshi, N. (2017). Checklist of CITES Listed Flora of Nepal; Dewan, S. et al. (2023). Medicinal ethnobotany of the Yakkha community in eastern Nepal.",
+          "family": "Orchidaceae",
+          "genus": "Aerides",
+          "growth_form": "Epiphytic herb",
+          "location_found_nepal": "Central and Eastern Nepal (Sankhuwasabha, Lalitpur, Bajhang districts); Altitude: 150–1200 m",
+          "location_found_nepal_citation": "Rokaya, M. B., et al. (2013). An annotated checklist of the orchids of Nepal. Nordic Journal of Botany; Joshi, N. (2017).",
+          "traditional_usage": "Flower paste applied to treat fractures; Leaf paste for cuts and wounds; Leaf powder as a general tonic.",
+          "traditional_usage_citation": "Dewan, S. et al. (2023); Ayesha, M. N. et al. (2025). Evaluation of the antibacterial and antifungal activities of the extracts of Aerides multiflora Roxb.",
+          "cultural_consensus_icf": 0.72,
+          "preparation_solvent": "Water (aqueous), Ethanol",
+          "preparation_method": "Maceration (powdered leaf or root in solvent for 48 hours at room temperature with orbital shaking)",
+          "preparation_method_citation": "Sharma, S. and Pathak, P. (2024). Elucidating the chemical composition and antioxidant activity of Aerides multiflora Roxb.",
+          "extraction_solvent": "Ethanol, Methanol, Ethyl Acetate, n-Butanol",
+          "compound_class": "Biphenanthrenes (Aerimultins A-C), Phenylpropanoid esters, Fatty acids, Alkaloids (Lidocaine), Sterols (Stigmasterol), Phenanthrenes (Gigantol, Imbricatin)",
+          "compound_class_citation": "Phan, N. T. et al. (2021). Three Novel Biphenanthrene Derivatives and a New Phenylpropanoid Ester from Aerides multiflora. Plants; Sharma, S. and Pathak, P. (2024).",
+          "parts_with_amr": "Leaves, Tubers, Roots, Whole plant",
+          "parts_with_amr_citation": "Ayesha, M. N. et al. (2025); PMC7922108; Ghanaksh, A. and Kaushik, P. (1999).",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "mic": "64-1000 µg/ml",
+              "mbc": "Not reported",
+              "zoi": "9.67 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Ethanol",
+              "preparation": "Maceration",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706"
+            },
+            {
+              "pathogen_name": "Escherichia coli",
+              "mic": "64-1000 µg/ml",
+              "mbc": "Not reported",
+              "zoi": "16.00 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Ethanol",
+              "preparation": "Maceration",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706"
+            },
+            {
+              "pathogen_name": "Pseudomonas aeruginosa",
+              "mic": "Not reported",
+              "mbc": "Not reported",
+              "zoi": "12.00 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Ethanol",
+              "preparation": "Maceration",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706"
+            },
+            {
+              "pathogen_name": "Klebsiella pneumoniae",
+              "mic": "0.312 mg/ml",
+              "mbc": "Not reported",
+              "zoi": "12-25 mm",
+              "assay_type": "Disc diffusion",
+              "extraction": "Ethanol",
+              "preparation": "Maceration",
+              "source_url": "https://doi.org/10.1016/j.bcab.2025.103706"
+            }
+          ]
+        },
+        "error": null,
+        "model": "spark-1-mini",
+        "expires_at": "2026-02-09T08:50:59.853000Z",
+        "credits_used": 200
+      }
+    }
