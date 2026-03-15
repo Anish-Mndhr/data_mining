@@ -16,6 +16,17 @@ CATEGORY_WEIGHTS = {
     "feasibility": 0.10,  # Research accessibility
 }
 
+# Six-component priority score weights used by calculate_priority_score().
+# Must sum to 1.0.
+PRIORITY_SCORE_WEIGHTS = {
+    "phytochemical": 0.20,
+    "ethnobotanical": 0.20,
+    "potency": 0.20,
+    "resistance": 0.15,
+    "synergy": 0.15,
+    "endophyte": 0.10,
+}
+
 # Sub-criteria weights within each category
 ETHNOBOTANICAL_WEIGHTS = {
     "icf_score": 0.50,  # Informant Consensus Factor (0-1)

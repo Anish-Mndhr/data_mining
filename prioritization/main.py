@@ -27,8 +27,20 @@ from .report import (
 from .config import (
     CATEGORY_WEIGHTS,
     PRIORITY_THRESHOLDS,
-    DEFAULT_WEIGHTS,
+    PRIORITY_SCORE_WEIGHTS,
 )
+
+
+class _DefaultWeights:
+    """Compatibility shim for projects that only define CATEGORY_WEIGHTS."""
+
+    ethnobotanical = CATEGORY_WEIGHTS.get('ethnobotanical', 0.30)
+    efficacy = CATEGORY_WEIGHTS.get('antimicrobial_efficacy', 0.40)
+    safety = CATEGORY_WEIGHTS.get('safety', 0.20)
+    feasibility = CATEGORY_WEIGHTS.get('feasibility', 0.10)
+
+
+DEFAULT_WEIGHTS = _DefaultWeights()
 
 
 def main():
@@ -55,8 +67,8 @@ Examples:
     # Input arguments
     parser.add_argument(
         '--input', '-i',
-        required=True,
-        help='Input file path (JSON, CSV, or .ipynb)'
+        default=None,
+        help='Input file path (JSON, CSV, or .ipynb). If omitted, common defaults are auto-detected.'
     )
     
     parser.add_argument(
@@ -69,15 +81,15 @@ Examples:
     # Output arguments
     parser.add_argument(
         '--output', '-o',
-        default='./prioritization_results',
-        help='Output directory (default: ./prioritization_results)'
+        default='prioritization/output_from_extraction',
+        help='Output directory (default: prioritization/output_from_extraction)'
     )
     
     parser.add_argument(
         '--export-format',
         choices=['json', 'csv', 'markdown', 'all'],
-        default='all',
-        help='Export format (default: all formats)'
+        default='csv',
+        help='Export format (default: csv)'
     )
     
     parser.add_argument(
@@ -89,8 +101,8 @@ Examples:
     parser.add_argument(
         '--top', '-t',
         type=int,
-        default=None,
-        help='Only export top N plants (default: all)'
+        default=10,
+        help='Only export top N plants (default: 10)'
     )
     
     # Filtering arguments
@@ -171,6 +183,20 @@ Examples:
     )
     
     args = parser.parse_args()
+
+    # Resolve input path when not explicitly provided.
+    if args.input is None:
+        default_candidates = [
+            Path('extraction/plant_extraction_results.json'),
+            Path('plant_extraction_results.json'),
+        ]
+        detected_input = next((str(p) for p in default_candidates if p.exists()), None)
+        if detected_input is None:
+            parser.error(
+                "No input file provided and no default input found. "
+                "Use --input <path> or place data at extraction/plant_extraction_results.json"
+            )
+        args.input = detected_input
     
     # Validate weights
     total_weight = args.ethnobotanical + args.efficacy + args.safety + args.feasibility
@@ -222,6 +248,7 @@ Examples:
         config = {
             'category_weights': CATEGORY_WEIGHTS.copy(),
             'priority_thresholds': PRIORITY_THRESHOLDS.copy(),
+            'priority_score_weights': PRIORITY_SCORE_WEIGHTS.copy(),
         }
         
         report = prioritize_plants(valid_plants, config=config)

@@ -17,6 +17,36 @@ from typing import List, Dict, Any, Optional, Union
 from .models import PlantData, PathogenData, StrainData
 
 
+def _looks_like_plant_record(data: Any) -> bool:
+    """Return True if a dictionary resembles a plant payload."""
+    if not isinstance(data, dict):
+        return False
+    return any(
+        key in data
+        for key in (
+            'scientific_name',
+            'scientificName',
+            'pathogen_data',
+            'pathogenData',
+            'traditional_usage',
+            'traditionalUsage',
+        )
+    )
+
+
+def _unwrap_data_payload(data: Any) -> Any:
+    """Unwrap nested data containers commonly used by extraction responses."""
+    current = data
+    for _ in range(5):
+        if _looks_like_plant_record(current):
+            return current
+        if isinstance(current, dict) and isinstance(current.get('data'), dict):
+            current = current['data']
+            continue
+        break
+    return current
+
+
 def load_from_json(file_path: Union[str, Path]) -> List[PlantData]:
     """
     Load plant data from JSON file.
@@ -39,9 +69,25 @@ def load_from_json(file_path: Union[str, Path]) -> List[PlantData]:
     
     # Handle different JSON formats
     if isinstance(data, dict):
+        # Firecrawl batch extraction format:
+        # { "plants": [{"status": "success", "data": {"data": {...plant...}}}, ...] }
+        if isinstance(data.get('plants'), list):
+            for item in data['plants']:
+                if not isinstance(item, dict):
+                    continue
+                if item.get('status') and item.get('status') != 'success':
+                    continue
+
+                payload = _unwrap_data_payload(item)
+                if _looks_like_plant_record(payload):
+                    plants.append(_normalize_plant_dict(payload))
+
+            return plants
+
         # Check if it's a Firecrawl response
         if 'data' in data:
             data = data['data']
+            data = _unwrap_data_payload(data)
         
         # Check if it's a single plant
         if 'scientific_name' in data or 'scientificName' in data:
@@ -50,7 +96,9 @@ def load_from_json(file_path: Union[str, Path]) -> List[PlantData]:
             # Might be a dict of plants
             for key, value in data.items():
                 if isinstance(value, dict):
-                    plants.append(_normalize_plant_dict(value))
+                    candidate = _unwrap_data_payload(value)
+                    if _looks_like_plant_record(candidate):
+                        plants.append(_normalize_plant_dict(candidate))
     
     elif isinstance(data, list):
         for item in data:
@@ -239,14 +287,50 @@ def _normalize_plant_dict(data: Dict[str, Any]) -> PlantData:
     normalized['url'] = data.get('url') or data.get('link')
     normalized['sn'] = data.get('sn')
     
+    def _normalize_pathogen_dict(pathogen: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """Map alternative pathogen keys to the PathogenData schema."""
+        mapped = {
+            'pathogen': (
+                pathogen.get('pathogen') or
+                pathogen.get('pathogen_name') or
+                pathogen.get('name')
+            ),
+            'mic': pathogen.get('mic') or pathogen.get('mic_value'),
+            'mbc': pathogen.get('mbc') or pathogen.get('mbc_value'),
+            'zoi': pathogen.get('zoi') or pathogen.get('zoi_value'),
+            'assay_type': pathogen.get('assay_type'),
+            'extraction': pathogen.get('extraction') or pathogen.get('extraction_solvent'),
+            'preparation': pathogen.get('preparation') or pathogen.get('preparation_method'),
+            'source_url': pathogen.get('source_url'),
+        }
+        if not mapped['pathogen']:
+            return None
+        return mapped
+
     # Parse pathogen data
     pathogen_data = []
     if 'pathogen_data' in data:
         for pathogen in data['pathogen_data']:
-            pathogen_data.append(PathogenData(**pathogen))
+            if not isinstance(pathogen, dict):
+                continue
+            normalized_pathogen = _normalize_pathogen_dict(pathogen)
+            if not normalized_pathogen:
+                continue
+            try:
+                pathogen_data.append(PathogenData(**normalized_pathogen))
+            except Exception:
+                continue
     elif 'pathogenData' in data:
         for pathogen in data['pathogenData']:
-            pathogen_data.append(PathogenData(**pathogen))
+            if not isinstance(pathogen, dict):
+                continue
+            normalized_pathogen = _normalize_pathogen_dict(pathogen)
+            if not normalized_pathogen:
+                continue
+            try:
+                pathogen_data.append(PathogenData(**normalized_pathogen))
+            except Exception:
+                continue
     
     normalized['pathogen_data'] = pathogen_data
     

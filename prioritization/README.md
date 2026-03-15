@@ -117,7 +117,7 @@ The algorithm evaluates plants across four weighted categories:
   - 100-500 μg/mL: Good (0.8)
   - 500-1000 μg/mL: Moderate (0.6)
   - 1000-5000 μg/mL: Weak (0.3)
-  - >5000 μg/mL: Poor (0.1)
+  - > 5000 μg/mL: Poor (0.1)
   - **WHO Priority Pathogen Bonus**: 1.5x weight
   - **AMR Strain Bonus**: 1.3x weight
 
@@ -186,6 +186,7 @@ Based on composite score (0-1 scale):
 The algorithm accepts data in multiple formats:
 
 #### JSON Format
+
 ```json
 {
   "scientific_name": "Curcuma longa",
@@ -204,15 +205,45 @@ The algorithm accepts data in multiple formats:
 }
 ```
 
+Also supported: Firecrawl-style batch extraction JSON where each plant is nested under
+`plants[].data.data` and pathogen records use keys such as `pathogen_name`,
+`mic_value`, `mbc_value`, and `zoi_value`.
+
+Example:
+
+```json
+{
+  "plants": [
+    {
+      "status": "success",
+      "data": {
+        "data": {
+          "scientific_name": "Curcuma longa",
+          "pathogen_data": [
+            {
+              "pathogen_name": "Staphylococcus aureus",
+              "mic_value": "125 ug/mL"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
 #### CSV Format
+
 Columns: `scientific_name`, `local_name`, `icf`, `traditional_usage`, `location_nepal`, etc.
 
 #### Jupyter Notebook
+
 Automatically extracts data from Firecrawl extraction outputs in `.ipynb` files.
 
 ### Minimum Requirements
 
 For valid scoring, plants must have:
+
 - Scientific name
 - At least 1 pathogen tested (in `pathogen_data` or `strain_data`)
 - Optional: MIC values for higher confidence
@@ -257,7 +288,9 @@ MIC_THRESHOLDS = {
 ## Output Formats
 
 ### JSON Export
+
 Structured data with detailed scoring breakdown:
+
 ```json
 {
   "metadata": {...},
@@ -276,16 +309,20 @@ Structured data with detailed scoring breakdown:
 ```
 
 ### CSV Export
+
 Tabular format for spreadsheet analysis:
+
 ```
 rank,scientific_name,total_score,priority_level,ethnobotanical_score,...
 1,Curcuma longa,0.823,high,0.891,0.845,0.712,0.654
 ```
 
 ### Markdown Export
+
 Human-readable report with tables and justifications.
 
 ### Summary Statistics
+
 ```
 Priority Distribution:
   High:   15 plants (30%)
@@ -420,7 +457,7 @@ If you use this prioritization framework in your research, please cite:
 ```
 Lacuna Plant Prioritization Algorithm v1.0
 Acaiberry Technologies (2026)
-Comprehensive Prioritization Framework for AI-Driven Discovery of 
+Comprehensive Prioritization Framework for AI-Driven Discovery of
 Novel Antimicrobial Agents from Medicinal Plants
 ```
 
@@ -431,6 +468,7 @@ MIT License - See LICENSE file for details
 ## Support
 
 For issues, questions, or contributions:
+
 - GitHub Issues: [repository link]
 - Email: [contact email]
 - Documentation: [docs link]
@@ -438,6 +476,7 @@ For issues, questions, or contributions:
 ## Changelog
 
 ### v1.0.0 (2026-03-09)
+
 - Initial release
 - Multi-criteria scoring system
 - Support for JSON, CSV, and notebook inputs

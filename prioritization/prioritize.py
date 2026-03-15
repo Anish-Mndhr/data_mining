@@ -40,7 +40,7 @@ def classify_priority_level(score: float) -> PriorityLevel:
         return PriorityLevel.LOW
 
 
-def score_plant(plant: PlantData) -> PrioritizationScore:
+def score_plant(plant: PlantData, config: Optional[Dict[str, Any]] = None) -> PrioritizationScore:
     """
     Calculate comprehensive prioritization score for a single plant.
     
@@ -51,7 +51,14 @@ def score_plant(plant: PlantData) -> PrioritizationScore:
         PrioritizationScore with all category scores and metadata
     """
     # Calculate composite score and category scores
-    total_score, category_scores = calculate_composite_score(plant)
+    priority_weights = None
+    if config:
+        priority_weights = config.get("priority_score_weights")
+
+    total_score, category_scores, component_scores, component_weights = calculate_composite_score(
+        plant,
+        priority_weights=priority_weights,
+    )
     
     # Classify priority level
     priority_level = classify_priority_level(total_score)
@@ -90,6 +97,8 @@ def score_plant(plant: PlantData) -> PrioritizationScore:
         feasibility_score=category_scores["feasibility"],
         total_score=total_score,
         priority_level=priority_level,
+        component_scores=component_scores,
+        component_weights=component_weights,
         pathogen_count=pathogen_count,
         mic_count=mic_count,
         who_priority_pathogens=who_priority_count,
@@ -124,7 +133,7 @@ def prioritize_plants(
     plant_scores = []
     for plant in plants:
         try:
-            score = score_plant(plant)
+            score = score_plant(plant, config=config)
             plant_scores.append(score)
         except Exception as e:
             # Log error but continue with other plants

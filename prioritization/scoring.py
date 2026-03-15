@@ -13,6 +13,7 @@ from typing import List, Dict, Any, Optional, Tuple
 from .models import PlantData, PathogenData, CategoryScore
 from .config import (
     CATEGORY_WEIGHTS,
+    PRIORITY_SCORE_WEIGHTS,
     ETHNOBOTANICAL_WEIGHTS,
     ANTIMICROBIAL_WEIGHTS,
     SAFETY_WEIGHTS,
@@ -25,6 +26,11 @@ from .config import (
     PATHOGEN_WEIGHTS,
     UNIT_CONVERSIONS,
 )
+
+
+def _clamp01(value: float) -> float:
+    """Clamp a numeric value into [0, 1]."""
+    return max(0.0, min(1.0, value))
 
 
 def parse_numeric_value(value_str: Optional[str]) -> Optional[float]:
@@ -642,7 +648,120 @@ def calculate_feasibility_score(plant: PlantData) -> CategoryScore:
     )
 
 
-def calculate_composite_score(plant: PlantData) -> Tuple[float, Dict[str, CategoryScore]]:
+def calculate_phytochemical_score(plant: PlantData) -> float:
+    """Estimate phytochemical richness score from compound class and extraction metadata."""
+    if not plant.compound_class:
+        return 0.25
+
+    compounds_text = plant.compound_class.lower()
+    separators = [',', ';', ' and ', '/']
+    normalized = compounds_text
+    for sep in separators:
+        normalized = normalized.replace(sep, '|')
+
+    parts = [p.strip() for p in normalized.split('|') if p.strip()]
+    unique_parts = len(set(parts))
+
+    if unique_parts >= 6:
+        return 1.0
+    if unique_parts >= 4:
+        return 0.8
+    if unique_parts >= 2:
+        return 0.6
+    return 0.4
+
+
+def predict_potency_score(plant: PlantData) -> float:
+    """Use antimicrobial potency block as potency proxy."""
+    antimicrobial = calculate_antimicrobial_score(plant)
+    return _clamp01(antimicrobial.score)
+
+
+def predict_resistance_coverage(plant: PlantData) -> float:
+    """Estimate resistance coverage from WHO-priority and AMR-indicator pathogens."""
+    who_count = 0
+    amr_count = 0
+
+    pathogen_names = [p.pathogen for p in plant.pathogen_data]
+    pathogen_names.extend([s.strain for s in plant.strain_data])
+
+    for name in pathogen_names:
+        if is_who_priority_pathogen(name):
+            who_count += 1
+        if is_amr_strain(name):
+            amr_count += 1
+
+    if not pathogen_names:
+        return 0.0
+
+    total_signal = who_count + amr_count
+    return _clamp01(total_signal / 4.0)
+
+
+def predict_synergy_potential(plant: PlantData) -> float:
+    """Estimate synergy potential from text evidence and multi-compound context."""
+    text = " ".join(filter(None, [
+        plant.compound_class or "",
+        plant.antibacterial_properties or "",
+        plant.amr_properties or "",
+        plant.traditional_usage or "",
+    ])).lower()
+
+    synergy_markers = ["synergy", "synerg", "combination", "checkerboard", "fic", "efflux"]
+    marker_hits = sum(1 for marker in synergy_markers if marker in text)
+
+    diversity_bonus = 0.0
+    if plant.compound_class:
+        diversity_bonus = 0.2
+
+    base = 0.2 + (0.2 * marker_hits) + diversity_bonus
+    return _clamp01(base)
+
+
+def predict_endophyte_correlation(plant: PlantData) -> float:
+    """Proxy score for endophyte correlation using habitat complexity metadata."""
+    score = 0.2
+
+    if plant.location_found_nepal:
+        score += 0.2
+    if plant.growth_form:
+        growth = plant.growth_form.lower()
+        if any(g in growth for g in ["tree", "shrub", "fern", "perennial"]):
+            score += 0.3
+        elif "herb" in growth:
+            score += 0.2
+    if plant.parts_with_amr or plant.parts_used:
+        score += 0.2
+    if plant.compound_class:
+        score += 0.1
+
+    return _clamp01(score)
+
+
+def calculate_priority_score(
+    plant_data: PlantData,
+    weights: Optional[Dict[str, float]] = None,
+) -> Tuple[float, Dict[str, float], Dict[str, float]]:
+    """Calculate six-factor priority score and return total + component scores + weights."""
+    active_weights = (weights or PRIORITY_SCORE_WEIGHTS).copy()
+
+    scores = {
+        'phytochemical': calculate_phytochemical_score(plant_data),
+        'ethnobotanical': calculate_ethnobotanical_score(plant_data).score,
+        'potency': predict_potency_score(plant_data),
+        'resistance': predict_resistance_coverage(plant_data),
+        'synergy': predict_synergy_potential(plant_data),
+        'endophyte': predict_endophyte_correlation(plant_data),
+    }
+
+    priority_score = sum(scores[c] * active_weights[c] for c in scores)
+    return _clamp01(priority_score), scores, active_weights
+
+
+def calculate_composite_score(
+    plant: PlantData,
+    priority_weights: Optional[Dict[str, float]] = None,
+) -> Tuple[float, Dict[str, CategoryScore], Dict[str, float], Dict[str, float]]:
     """
     Calculate composite prioritization score for a plant.
     
@@ -654,18 +773,45 @@ def calculate_composite_score(plant: PlantData) -> Tuple[float, Dict[str, Catego
     Returns:
         Tuple of (total_score, category_scores_dict)
     """
-    # Calculate individual category scores
-    ethnobotanical = calculate_ethnobotanical_score(plant)
-    antimicrobial = calculate_antimicrobial_score(plant)
-    safety = calculate_safety_score(plant)
-    feasibility = calculate_feasibility_score(plant)
-    
-    # Calculate total weighted score
-    total_score = (
-        ethnobotanical.weighted_score +
-        antimicrobial.weighted_score +
-        safety.weighted_score +
-        feasibility.weighted_score
+    total_score, component_scores, active_weights = calculate_priority_score(
+        plant,
+        weights=priority_weights,
+    )
+
+    ethnobotanical = CategoryScore(
+        category="ethnobotanical",
+        score=component_scores["ethnobotanical"],
+        weight=CATEGORY_WEIGHTS["ethnobotanical"],
+        weighted_score=component_scores["ethnobotanical"] * CATEGORY_WEIGHTS["ethnobotanical"],
+        details={"component": "ethnobotanical"},
+        justification="Derived from six-factor priority model",
+    )
+
+    antimicrobial = CategoryScore(
+        category="antimicrobial_efficacy",
+        score=component_scores["potency"],
+        weight=CATEGORY_WEIGHTS["antimicrobial_efficacy"],
+        weighted_score=component_scores["potency"] * CATEGORY_WEIGHTS["antimicrobial_efficacy"],
+        details={"component": "potency"},
+        justification="Derived from six-factor priority model",
+    )
+
+    safety = CategoryScore(
+        category="safety",
+        score=component_scores["synergy"],
+        weight=CATEGORY_WEIGHTS["safety"],
+        weighted_score=component_scores["synergy"] * CATEGORY_WEIGHTS["safety"],
+        details={"component": "synergy"},
+        justification="Derived from six-factor priority model",
+    )
+
+    feasibility = CategoryScore(
+        category="feasibility",
+        score=component_scores["endophyte"],
+        weight=CATEGORY_WEIGHTS["feasibility"],
+        weighted_score=component_scores["endophyte"] * CATEGORY_WEIGHTS["feasibility"],
+        details={"component": "endophyte"},
+        justification="Derived from six-factor priority model",
     )
     
     category_scores = {
@@ -675,4 +821,4 @@ def calculate_composite_score(plant: PlantData) -> Tuple[float, Dict[str, Catego
         "feasibility": feasibility,
     }
     
-    return total_score, category_scores
+    return total_score, category_scores, component_scores, active_weights
