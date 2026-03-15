@@ -136,6 +136,8 @@ class PrioritizationScore(BaseModel):
     # Composite score
     total_score: float = Field(..., ge=0, le=1, description="Total weighted score (0-1)")
     priority_level: PriorityLevel = Field(..., description="Priority classification")
+    component_scores: Dict[str, float] = Field(default_factory=dict, description="Six-factor component scores")
+    component_weights: Dict[str, float] = Field(default_factory=dict, description="Weights used for component scores")
     
     # Ranking
     rank: Optional[int] = Field(None, description="Rank among all plants")
@@ -174,6 +176,11 @@ class PrioritizationScore(BaseModel):
             "antimicrobial_score": round(self.antimicrobial_score.score, 3),
             "safety_score": round(self.safety_score.score, 3),
             "feasibility_score": round(self.feasibility_score.score, 3),
+            "phytochemical_score": round(self.component_scores.get("phytochemical", 0.0), 3),
+            "potency_score": round(self.component_scores.get("potency", 0.0), 3),
+            "resistance_score": round(self.component_scores.get("resistance", 0.0), 3),
+            "synergy_score": round(self.component_scores.get("synergy", 0.0), 3),
+            "endophyte_score": round(self.component_scores.get("endophyte", 0.0), 3),
             "pathogen_count": self.pathogen_count,
             "mic_count": self.mic_count,
             "who_priority_pathogens": self.who_priority_pathogens,

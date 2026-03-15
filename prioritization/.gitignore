@@ -1,0 +1,10 @@
+/output/
+/output_from_extraction/
+/plant_extraction_results.json
+.venv/
+/venv/
+/__pycache__
+*.pyc
+/files/
+/extraction/
+/Filters/
